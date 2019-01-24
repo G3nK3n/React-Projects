@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+                    
+        <title>Hello React!</title>
+                    
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+    </head>
+<body>
+
+    <div id="root"></div>
+    
+    <script type="text/babel">
+
+        class SomeComponent extends React.Component{
+
+            //You will need this to change states
+            constructor(props) {
+                super(props);
+
+                this.state = {checked:true};
+
+                //This binds the "this" to the functions, so that you may use it to change the state
+                this.handleChecked = this.handleChecked.bind(this);
+            }
+
+            handleChecked() {
+                this.setState({checked: !this.state.checked})
+            }
+
+            render() {
+
+                var msg;
+                if(this.state.checked)
+                {
+                    msg = "Checked!"
+                }
+                else
+                {
+                    msg = "Unchecked!"
+                }
+
+                return (
+                  
+                    <div>
+                        <input type="checkbox" defaultChecked={this.state.checked} onChange={this.handleChecked}/>
+                        <h1>Checkbox is: {msg}</h1>
+                    </div>
+                    
+                );
+            }
+
+        }
+
+        ReactDOM.render(
+            
+            <div>
+                <SomeComponent />
+            </div>
+            
+        ,document.getElementById('root'));    
+
+
+        
+    </script>
+
+</body>
+</html>
