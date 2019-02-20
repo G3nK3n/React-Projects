@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ListComponent from './ListComponent';
+import AddInput from './AddInput';
 
 export default class FullList extends Component {
 
@@ -46,20 +47,21 @@ export default class FullList extends Component {
     render() {
         return(
             <div>
-                <h1>ToDo List</h1>
-                <p>NOW USE CSS AND BOOTSTRAP</p>
-                <form>
-                    <label>ToDo</label>
-                    <input ref="someText" type="text" />
-                    <button type="button" onClick={this.addList}>Add</button>
-                </form>
+                <h1 className="text-uppercase text-white font-weight-bold">ToDo List</h1>
                 
+                <div className="formSection">
+                    <form>
+                        <input ref="someText" type="text" /> <br/>
+                        <button type="button" onClick={this.addList}>Add</button>
+                    </form>
 
-                <h2> Full List </h2>
-                <div>
-                    {this.state.todo.map(this.eachList)} 
-                    {/* Creates same amount of components as the elements in the array */}
+                    <div>
+                        {this.state.todo.map(this.eachList)} 
+                        {/* Creates same amount of components as the elements in the array */}
+                    </div>
                 </div>
+                
+                {/* CONTINUE AND TRY TO MODIFY THE PAGE, EITHER PUTTING THE LIST BACK UP, AND THE LIST IN ANOTHER DIV */}
             </div>
         );
     }
