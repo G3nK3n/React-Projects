@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ListComponent from './ListComponent';
-import AddInput from './AddInput';
+
 
 export default class FullList extends Component {
 
@@ -38,26 +38,30 @@ export default class FullList extends Component {
 
     eachList(text, i) {
         return (
-            <ListComponent key={i} index={i} updateTheList={this.updateList} removeFromList={this.removeList}>
-                {text}
-            </ListComponent>
+            <div className="listText" key={i}>
+                <ListComponent key={i} index={i} updateTheList={this.updateList} removeFromList={this.removeList}>
+                    {text}
+                </ListComponent>
+            </div>
         );
     }
 
     render() {
         return(
             <div>
-                <h1 className="text-uppercase text-white font-weight-bold">ToDo List</h1>
+                <h1 className="text-uppercase text-white font-weight-bold">Crappy ToDo List</h1>
                 
-                <div className="formSection">
-                    <form>
-                        <input ref="someText" type="text" /> <br/>
-                        <button type="button" onClick={this.addList}>Add</button>
-                    </form>
+                <div className="formContainer">
+                    <div className="container formSection col-lg-4">
+                        <form>
+                            <input ref="someText" type="text" />
+                            <button type="button" onClick={this.addList}>Add</button>
+                        </form>
 
-                    <div>
-                        {this.state.todo.map(this.eachList)} 
-                        {/* Creates same amount of components as the elements in the array */}
+                        <div>
+                            {this.state.todo.map(this.eachList)} 
+                            {/* Creates same amount of components as the elements in the array */}
+                        </div>
                     </div>
                 </div>
                 

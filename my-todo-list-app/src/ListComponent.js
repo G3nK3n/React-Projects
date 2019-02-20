@@ -30,7 +30,7 @@ export default class ListComponent extends Component {
 
     renderEdit() {
         return(
-            <div>
+            <div className="editList">
                 <textarea ref="newText" defaultValue={this.props.children}></textarea>
                 <button onClick={this.saveList}>Save</button>
             </div>
@@ -39,7 +39,7 @@ export default class ListComponent extends Component {
 
     renderNormal() {
         return (
-            <div>
+            <div className="eachList">
                 <p>{this.props.children}</p>
                 <button onClick={this.editList}>Edit</button>
                 <button onClick={this.deleteFromList}>Remove</button>
