@@ -8,6 +8,18 @@
   pointer-events: none;
 }
 
+.navbar-light {
+  background-color: rgba(47, 46, 46, 1);
+}
+
+.navbar-light .navbar-brand{
+  color: white;
+}
+
+#navbarNav a {
+  color: white;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
