@@ -1,3 +1,8 @@
+body {
+  background-image: url(http://www.baltana.com/files/wallpapers-2/Game-Background-Wallpaper-04890.jpg);
+  background-size: 1366px 768px;
+}
+
 .App {
   text-align: center;
 }
@@ -17,6 +22,10 @@
 }
 
 #navbarNav a {
+  color: white;
+}
+
+.navbar-light .navbar-brand:hover{
   color: white;
 }
 
