@@ -40,6 +40,12 @@ body {
   color: white;
 }
 
+.searchBoxContainer {
+  height: 200px;
+  background: grey;
+  margin-top: 100px;
+}
+
 .App-link {
   color: #61dafb;
 }
