@@ -46,6 +46,25 @@ body {
   margin-top: 100px;
 }
 
+.searchBoxContainer h1{
+  text-align: center;
+}
+
+.input-field {
+  text-align: center;
+}
+
+.btn-search {
+  background: transparent;
+  position: absolute;
+  border-style: none;
+  margin-top: 17px;
+}
+
+#searchBox {
+  width: 90%;
+  margin-top: 15px;
+}
 .App-link {
   color: #61dafb;
 }
