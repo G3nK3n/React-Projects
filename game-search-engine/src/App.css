@@ -1,5 +1,6 @@
 body {
-  background-image: url(http://www.baltana.com/files/wallpapers-2/Game-Background-Wallpaper-04890.jpg);
+  /*background-image: url(http://www.baltana.com/files/wallpapers-2/Game-Background-Wallpaper-04890.jpg);*/
+  background-image: url(https://cdn.suwalls.com/wallpapers/fantasy/futuristic-city-10719-1920x1200.jpg);
   background-size: 1366px 768px;
 }
 
@@ -14,7 +15,8 @@ body {
 }
 
 .navbar-light {
-  background-color: rgba(47, 46, 46, 1);
+  /*background-color: rgba(47, 46, 46, 1);*/
+  
 }
 
 .navbar-light .navbar-brand{
@@ -42,12 +44,12 @@ body {
 
 .searchBoxContainer {
   height: 200px;
-  background: grey;
   margin-top: 100px;
 }
 
 .searchBoxContainer h1{
   text-align: center;
+  color: white;
 }
 
 .input-field {
@@ -58,12 +60,16 @@ body {
   background: transparent;
   position: absolute;
   border-style: none;
-  margin-top: 17px;
+  margin-top: 23px;
+  margin-left: 10px;
 }
 
 #searchBox {
   width: 90%;
   margin-top: 15px;
+  padding-left: 31px;
+  border-radius: 34px;
+  height: 40px;
 }
 .App-link {
   color: #61dafb;
