@@ -7,7 +7,7 @@ export default class SearchBox extends Component {
             <div>
                 <div className="container col-lg-5 searchBoxContainer">
                    
-                   <div className="theTitle"><h1>What are you looking for?</h1></div>
+                   <div className="theTitle"><h1>What games you searching for?</h1></div>
 
                     <div className="inner-form col-lg-12">
                         <div className="input-field">
