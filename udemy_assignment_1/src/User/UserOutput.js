@@ -1,10 +1,16 @@
 import React from 'react';
+import './User.css';
+
+const mystyle = {
+    //JSX style of using styles.
+    padding: "10px"
+};
 
 const theOutput = (props) => {
     return (
-        <div>
+        <div style={mystyle} className="OutputClass">
             <p onClick={props.click}>The username is: {props.username}</p>
-            <p>New name: </p>
+            <p>Some random text</p>
         </div>
     )
 };

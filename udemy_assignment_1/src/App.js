@@ -9,7 +9,7 @@ class App extends Component {
     usernames: [
       { name: "Kenneth" },
       { name: "Kev" },
-      { name: "Wtv" }
+      { name: "Data Binding Name :)" }
     ]
   }
 
@@ -23,14 +23,26 @@ class App extends Component {
     })
   }
 
+  changeNameHandler = (event) => {
+    this.setState({
+      usernames: [
+        { name: "Kenneth" },
+        { name: "Kev" },
+        { name: event.target.value }
+      ]
+    })
+  }
+
   render(){
+
     return (
       <div className="App">
-        <Input />
-        <Output click={this.switchNameHandler.bind(this, "Sorey")} username="Ken" > </Output>
+        <Input changename={this.changeNameHandler}/>
+        <Output click={this.switchNameHandler.bind(this, "Sorey")} username="Ken" />
         <Output username={this.state.usernames[1].name}/>
-        <Output username={this.state.usernames[2].name}/>
+        <Output username={this.state.usernames[2].name}/> 
       </div>
+      //In the rnder function, we chose the last Output component for changing the name with the event handler.
     );
   }
   

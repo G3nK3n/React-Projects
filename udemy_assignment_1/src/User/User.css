@@ -1,0 +1,14 @@
+.InputClass {
+    border-style: ridge;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.OutputClass {
+    margin: auto;
+    margin-top: 50px;
+    border-style: groove;
+    width: 50%;
+    text-align: center;
+}
