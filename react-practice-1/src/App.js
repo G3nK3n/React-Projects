@@ -9,7 +9,9 @@ class App extends Component {
       { name: 'Ken' },
       { name: 'Kev' }, 
       { name: 'wtv' }
-    ]
+    ],
+    anotherState: 'Some value', 
+    showPersons: false
   }
 
   switchMethodHandler = (newName) => {
@@ -34,6 +36,11 @@ class App extends Component {
     })
   }
 
+  togglePersonHandler = () => {
+    const doesShow = this.state.showPersons;
+    this.setState({showPersons: !doesShow});
+  }
+
   render() {
 
   const style = {
@@ -48,10 +55,15 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Hi! lol</h1>
-        <button style={style} onClick={() => this.switchMethodHandler("lol")}>Some Button</button>
-        <Person name={this.state.persons[0].name}>Is this working?</Person>
-        <Person change={this.nameChangeHandler} click={this.switchMethodHandler.bind(this, "LOL")} name={this.state.persons[1].name}>Now?</Person>
-        <Person name={this.state.persons[2].name}>How about now?</Person>
+        <button style={style} onClick={this.togglePersonHandler}>Show Person</button>
+        {
+          this.state.showPersons === true ?
+            <div>
+              <Person name={this.state.persons[0].name}>Is this working?</Person>
+              <Person change={this.nameChangeHandler} click={this.switchMethodHandler.bind(this, "LOL")} name={this.state.persons[1].name}>Now?</Person>
+              <Person name={this.state.persons[2].name}>How about now?</Person>
+            </div> : null
+        }
       </div>
     );
   }
