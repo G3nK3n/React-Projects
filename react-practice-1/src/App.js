@@ -52,18 +52,23 @@ class App extends Component {
     cursor: 'pointer'
   };
 
+  let persons = null;
+
+  if(this.state.showPersons) {
+    persons = (
+      <div>
+        <Person name={this.state.persons[0].name}>Is this working?</Person>
+        <Person change={this.nameChangeHandler} click={this.switchMethodHandler.bind(this, "LOL")} name={this.state.persons[1].name}>Now?</Person>
+        <Person name={this.state.persons[2].name}>How about now?</Person>
+      </div>
+    )
+  }
+
     return (
       <div className="App">
         <h1>Hi! lol</h1>
         <button style={style} onClick={this.togglePersonHandler}>Show Person</button>
-        {
-          this.state.showPersons === true ?
-            <div>
-              <Person name={this.state.persons[0].name}>Is this working?</Person>
-              <Person change={this.nameChangeHandler} click={this.switchMethodHandler.bind(this, "LOL")} name={this.state.persons[1].name}>Now?</Person>
-              <Person name={this.state.persons[2].name}>How about now?</Person>
-            </div> : null
-        }
+        {persons}    
       </div>
     );
   }
