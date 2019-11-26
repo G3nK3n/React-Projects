@@ -14,16 +14,10 @@ class App extends Component {
     showPersons: false
   }
 
-  switchMethodHandler = (newName) => {
-    //console.log('It is clicked!');
-    // DONT DO THIS this.state.persons[0].name = "Other name";
-    this.setState({
-      persons: [
-      { name: newName },
-      { name: 'Kev' }, 
-      { name: 'wtv' }
-      ] 
-    })
+  deletePersonHandler = (personDeleting) => {
+    const persons = this.state.persons;
+    persons.splice(personDeleting, 1);
+    this.setState({persons: persons});
   }
 
   nameChangeHandler = (event) => {
@@ -57,16 +51,18 @@ class App extends Component {
   if(this.state.showPersons) {
     persons = (
       <div>
-        <Person name={this.state.persons[0].name}>Is this working?</Person>
-        <Person change={this.nameChangeHandler} click={this.switchMethodHandler.bind(this, "LOL")} name={this.state.persons[1].name}>Now?</Person>
-        <Person name={this.state.persons[2].name}>How about now?</Person>
+        
+        {this.state.persons.map((thePerson, index) => {
+          //This outputs all the components using map functions
+          return <Person name={thePerson.name} click={() => this.deletePersonHandler(index)}/>
+        })}
       </div>
     )
   }
 
     return (
       <div className="App">
-        <h1>Hi! lol</h1>
+        <h1>People</h1>
         <button style={style} onClick={this.togglePersonHandler}>Show Person</button>
         {persons}    
       </div>
