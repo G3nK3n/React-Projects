@@ -6,16 +6,17 @@ class App extends Component {
 
   state = {
     persons: [
-      { name: 'Ken' },
-      { name: 'Kev' }, 
-      { name: 'wtv' }
+      { id: 'wtv1', name: 'Ken' },
+      { id: 'wtv2', name: 'Kev' }, 
+      { id: 'wtv3', name: 'wtv' }
     ],
     anotherState: 'Some value', 
     showPersons: false
   }
 
   deletePersonHandler = (personDeleting) => {
-    const persons = this.state.persons;
+    //Slice creates a copy of the state array instead of using the original one.
+    const persons = this.state.persons.slice();
     persons.splice(personDeleting, 1);
     this.setState({persons: persons});
   }
@@ -54,7 +55,8 @@ class App extends Component {
         
         {this.state.persons.map((thePerson, index) => {
           //This outputs all the components using map functions
-          return <Person name={thePerson.name} click={() => this.deletePersonHandler(index)}/>
+          //Key props identifies each component uniquely
+          return <Person name={thePerson.name} click={() => this.deletePersonHandler(index)} key={thePerson.id} />
         })}
       </div>
     )
