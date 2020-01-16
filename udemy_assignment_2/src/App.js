@@ -4,29 +4,48 @@ import './App.css';
 class App extends Component {
 
   state = {
-    text: ""
+    text: "", 
+    length: ""
   }
 
+
   stringLengthOutput = (event) => {
-    const string_array = event.target.value.split(',')
-    
+ 
     this.setState({
       text: event.target.value
     })
+
+    var string_array = this.state.text.split('');
+    
+    let count = null;
+    
+    for(var i=0;i<string_array.length;i++){
+      if(string_array[i] == " ")
+        count = 0;
+      else
+        count++;
+    }
+    
+    this.setState({
+      length: count
+    })
   }
+
+
+
 
   render() {
     return (
       <div className="App">
         <h1>Textbox</h1>
         <input type="text" onChange={(event) => this.stringLengthOutput(event)}/>
-        <p>The length of the text above is: {this.state.text}</p>
+        <p>The length of the text above is: {this.state.length}</p>
       </div>
     );
   }
   
 }
 
-//FIGURE OUT HOW TO COUNT NUMBER OF CHARACTERS IN ARRAY
+//FIX THE LENGTH COUNT WHEN IT IS EMPTY
 
 export default App;
