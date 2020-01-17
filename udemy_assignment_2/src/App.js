@@ -5,7 +5,7 @@ class App extends Component {
 
   state = {
     text: "", 
-    length: ""
+    length: 0
   }
 
 
@@ -16,13 +16,12 @@ class App extends Component {
     })
 
     var string_array = this.state.text.split('');
-    
-    let count = null;
+    console.log(string_array);
+
+    let count = 0;
     
     for(var i=0;i<string_array.length;i++){
-      if(string_array[i] == " ")
-        count = 0;
-      else
+      if(string_array[i] != " ")
         count++;
     }
     
