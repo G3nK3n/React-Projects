@@ -11,23 +11,29 @@ class App extends Component {
 
   stringLengthOutput = (event) => {
  
-    this.setState({
-      text: event.target.value
-    })
-
-    var string_array = this.state.text.split('');
-    console.log(string_array);
-
+    let iniValue = event.target.value;
+    console.log("init value: " + iniValue);
+    var string_array = iniValue.split('');
+    console.log("After split: " + string_array)
+    
     let count = 0;
     
-    for(var i=0;i<string_array.length;i++){
-      if(string_array[i] != " ")
-        count++;
+    if(iniValue == ""){
+      this.setState({
+        length: 0
+      })
     }
-    
+    else{
+      for(var i=0;i<string_array.length;i++){
+        if(string_array[i]!=" ")
+          count++;
+      }
+    }
+
     this.setState({
       length: count
     })
+
   }
 
 
