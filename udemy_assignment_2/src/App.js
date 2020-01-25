@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Valid from './ValidComponent/ValidationComponent';
 
 class App extends Component {
 
@@ -36,21 +37,18 @@ class App extends Component {
 
   }
 
-
-
-
   render() {
     return (
       <div className="App">
         <h1>Textbox</h1>
         <input type="text" onChange={(event) => this.stringLengthOutput(event)}/>
         <p>The length of the text above is: {this.state.length}</p>
+
+      <Valid thelength={this.state.length} />
       </div>
     );
   }
   
 }
-
-//FIX THE LENGTH COUNT WHEN IT IS EMPTY
 
 export default App;
