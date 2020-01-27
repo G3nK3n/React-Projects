@@ -3,7 +3,7 @@ import React from 'react';
 const charComponent = (props) => {
     return(
         <div style={props.style}>
-            <p>Hi</p>
+            <p>{props.char}</p>
         </div>
     )
 }

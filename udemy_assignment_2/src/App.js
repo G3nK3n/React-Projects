@@ -20,20 +20,21 @@ class App extends Component {
     
     let count = 0;
     
-    if(iniValue == ""){
+    if(iniValue === ""){
       this.setState({
         length: 0
       })
     }
     else{
       for(var i=0;i<string_array.length;i++){
-        if(string_array[i]!=" ")
+        if(string_array[i]!==" ")
           count++;
       }
     }
 
     this.setState({
-      length: count
+      length: count, 
+      text: event.target.value
     })
 
   }
@@ -45,7 +46,8 @@ class App extends Component {
       padding: '16px', 
       textAlign: 'center', 
       margin: '16px', 
-      border: '1px solid black'
+      border: '1px solid black', 
+      cursor: 'crosshair'
     };
 
     return (
@@ -55,12 +57,19 @@ class App extends Component {
         <p>The length of the text above is: {this.state.length}</p>
 
       <Valid thelength={this.state.length} />
-      <Char style={style}></Char>
       
+      {this.state.text.split('').map((someChar, index) => {
+        return <Char style={style} char={someChar}/>
+      })}
+      
+      {/*console.log(this.state.text.split(''))*/}
+      
+      {/*}
+      <Char style={style} char={this.state.text}></Char>
+      */}
       </div>
+      
     );
   }
-  
 }
-
 export default App;
