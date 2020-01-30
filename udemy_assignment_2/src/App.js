@@ -81,6 +81,8 @@ class App extends Component {
         <Valid thelength={this.state.length} />
 
         {charGroup}
+        {/* Use this way when you are displaying multiple Component of same type inside a return, so 
+            it wont have an error, since it would be returning twice, which you cant */}
       
       </div>
       
