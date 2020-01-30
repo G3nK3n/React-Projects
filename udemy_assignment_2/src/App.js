@@ -14,9 +14,9 @@ class App extends Component {
   stringLengthOutput = (event) => {
  
     let iniValue = event.target.value;
-    console.log("init value: " + iniValue);
+    //console.log("init value: " + iniValue);
     var string_array = iniValue.split('');
-    console.log("After split: " + string_array)
+    //console.log("After split: " + string_array)
     
     let count = 0;
     
@@ -33,6 +33,7 @@ class App extends Component {
     }
 
     string_array = string_array.join('');
+    //console.log('After join from Adding: ' + string_array);
 
     this.setState({
       length: count, 
@@ -41,16 +42,13 @@ class App extends Component {
 
   }
 
-  deleteChar = (charPosition) => { 
-    //const splitText = this.state.text.split('');
-    //splitText.splice(charPosition, 1);
-    //console.log(splitText);
-    //const newText = splitText.join('');
-    //this.setState({text: newText});
-    /*
-    const temp = this.state.text.split('').splice(charPosition, 1);
-    this.setState({text: temp});
-    */
+  deleteChar = (charPosition, event) => { 
+    const splitText = this.state.text.split('');
+    splitText.splice(charPosition, 1);
+    console.log('After Split: ' + splitText);
+    const newText = splitText.join('');
+    console.log('After Join: ' + newText);
+    this.setState({text: newText});
   }
 
   render() {
@@ -69,7 +67,8 @@ class App extends Component {
     charGroup = (
       <div>
         {this.state.text.split('').map((someChar, index) => {
-          return <Char style={style} char={someChar} click={this.deleteChar(index)}/>
+          return <Char style={style} char={someChar} click={(event) => this.deleteChar(index, event)}/>
+          //Still do not understand why put in function for deleteChar
         })}
       </div>
     )
