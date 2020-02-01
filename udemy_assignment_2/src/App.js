@@ -75,7 +75,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Textbox</h1>
-        <input type="text" onChange={(event) => this.stringLengthOutput(event)}/>
+        <input value={this.state.text} type="text" onChange={(event) => this.stringLengthOutput(event)}/>
         <p>The length of the text above is: {this.state.length}</p>
 
         <Valid thelength={this.state.length} />
