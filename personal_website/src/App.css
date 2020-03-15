@@ -1,3 +1,8 @@
+body{
+  background: url("http://getwallpapers.com/wallpaper/full/1/4/b/25241.jpg");
+  background-size: cover;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* ------------------------ HEADER ------------------------ */
+
+.header {
+  /*background-color: grey;*/
+}
+
+.homeIcon {
+  width: 25px;
+  height: 25px;
+  display: right;
+}
+
+.linkDisplay {
+  text-decoration:none;
+  color: white;
+  float: right;
 }

@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
+import Header from './AllComponents/Header.js';
 
 class App extends Component {
   render() {
     return(
-      <p>This is a test</p>
-      // CREATE COMPONENT FOR HEADER
+      <div>
+         <Header />
+      </div>
+
     );
   }
 }
