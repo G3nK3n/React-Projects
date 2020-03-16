@@ -50,12 +50,21 @@ body{
 
 .homeIcon {
   width: 25px;
-  height: 25px;
+  height: 40px;
   display: right;
+  margin-left: 30px;
 }
 
 .linkDisplay {
   text-decoration:none;
   color: white;
+  float: right;
+  /*border: 1px solid black;*/
+  padding:15px;
+  /*margin-right: 20px;*/
+}
+
+.top_right_links {
+  margin-right:50px;
   float: right;
 }
