@@ -44,6 +44,13 @@ body{
 
 /* ------------------------ HEADER ------------------------ */
 
+.NavBar {
+  float:right;
+}
+
+.NavBarLink{
+  color: white;
+} 
 /*
 .header {
   background-color: grey;
