@@ -1,5 +1,5 @@
 body{
-  background: url("http://getwallpapers.com/wallpaper/full/1/4/b/25241.jpg");
+  background: url("https://www.agdelta.com/wp-content/uploads/2018/06/website-parallax-background-C.jpg");
   background-size: cover;
 }
 
@@ -51,6 +51,11 @@ body{
 .NavBarLink{
   color: white;
 } 
+
+.NavBarBrand {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top:1.5px;
+}
 /*
 .header {
   background-color: grey;

@@ -4,11 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css'; //Need this for Bootstrap as well
 
 //Bootstrap Imports
 import Navbar from 'react-bootstrap/Nav';
+import NavbarBrand from 'react-bootstrap/NavbarBrand';
+import Container from 'react-bootstrap/Container';
 
 const headerComponent = (props) => {
     return(
         <div className="header">
-         <Navbar className="NavBar">
+         <Container fluid>
+         <Navbar>
+            <NavbarBrand className="NavBarBrand" href="#"> KEN SERRANO </NavbarBrand>
             <Navbar.Item>
                 <Navbar.Link className="NavBarLink" href="#"> About </Navbar.Link>
             </Navbar.Item>
@@ -19,6 +23,7 @@ const headerComponent = (props) => {
                 <Navbar.Link className="NavBarLink" href="#"> Portfolio </Navbar.Link>
             </Navbar.Item>
          </Navbar>
+         </Container>
          {/*
             <a href="#">
                 <img className="homeIcon" src="https://i.pinimg.com/236x/da/e0/92/dae092a545e4c09714ee9842ab15dc10.jpg" alt="home_icon" />
