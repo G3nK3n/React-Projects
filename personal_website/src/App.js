@@ -7,7 +7,7 @@ class App extends Component {
     return(
       <div>
          <Header />
-    {/*<About />*/}
+         <About />
       </div>
 
     );

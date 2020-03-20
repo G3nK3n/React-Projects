@@ -55,28 +55,24 @@ body{
 .NavBarBrand {
   font-family: 'Courier New', Courier, monospace;
   margin-top:1.5px;
-}
-/*
-.header {
-  background-color: grey;
+  font-weight:bold;
 }
 
-.homeIcon {
-  width: 25px;
-  height: 40px;
-  display: right;
-  margin-left: 30px;
+
+/* ------------------------ ABOUT ------------------------ */
+
+.AboutDiv {
+  /*background-color: black;*/
+  height: 350px;
+  margin-top: 120px;
 }
 
-.linkDisplay {
-  text-decoration:none;
-  color: white;
-  float: right;
-  padding:15px;
+.AboutDiv h1 {
+  text-align:center;
+  color:white;
+  font-weight:bold;
 }
 
-.top_right_links {
-  margin-right:50px;
-  float: right;
+.AboutDiv p {
+  color:white;
 }
-*/
