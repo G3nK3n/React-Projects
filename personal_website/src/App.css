@@ -76,3 +76,16 @@ body{
 .AboutDiv p {
   color:white;
 }
+
+.AboutMeDesc {
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.AboutMeDesc li {
+  color:white;
+}
+
+.AboutMeDesc a {
+  color:white;
+}

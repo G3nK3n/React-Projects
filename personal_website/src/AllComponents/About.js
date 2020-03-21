@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; //Need this for Bootstrap as well
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+//import ListGroup from 'react-bootstrap/ListGroup'
 
 
 
@@ -13,16 +14,17 @@ const aboutComponent = (props) => {
             <Container className="AboutDiv">
                 <Row>
                     <Col sm={12}>
-                        <h1>About</h1>
+                        <h1>About Me</h1>
                     </Col>
-                    <Col sm={5}>
-                        <p>Hi</p>
-                        {/*MAKE LIST FOR ABOUT ME*/}
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-
+                    <Col sm={12}>
+                        <ul className="AboutMeDesc">
+                            <li> Kenneth Serrano </li>
+                            <li> Computer Science Student (Concordia University)</li>
+                            <li> 28 </li>
+                            <li> Amateur Photographer </li>
+                            <li> <a href="https://github.com/G3nK3n">Github</a> </li>
+                            <li> Email: ken_serrano@Hotmail.com </li>
+                        </ul>
                     </Col>
                 </Row>
             </Container>

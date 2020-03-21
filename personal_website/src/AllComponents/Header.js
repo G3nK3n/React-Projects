@@ -17,7 +17,7 @@ const headerComponent = (props) => {
                 <Navbar.Link className="NavBarLink" href="#"> About </Navbar.Link>
             </Navbar.Item>
             <Navbar.Item>
-                <Navbar.Link className="NavBarLink" href="#"> Contact </Navbar.Link>
+                <Navbar.Link className="NavBarLink" href="#"> Photography </Navbar.Link>
             </Navbar.Item>
             <Navbar.Item>
                 <Navbar.Link className="NavBarLink" href="#"> Portfolio </Navbar.Link>
