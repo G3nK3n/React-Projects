@@ -16,6 +16,8 @@ const aboutComponent = (props) => {
                     <Col sm={12}>
                         <h1>About Me</h1>
                     </Col>
+                </Row>
+                <Row>
                     <Col sm={12}>
                         <ul className="AboutMeDesc">
                             <li> Kenneth Serrano </li>

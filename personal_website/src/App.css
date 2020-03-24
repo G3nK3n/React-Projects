@@ -89,3 +89,31 @@ body{
 .AboutMeDesc a {
   color:white;
 }
+
+/* ------------------------ Photography ------------------------ */
+
+.PhotogContainer {
+  background-color:black;
+  margin-top:50px;
+}
+
+.PhotogTitle {
+  text-align: center;
+}
+
+.PhotogTitle h1{
+  color: white;
+  font-family: 'Abel';
+  font-size: 90px;
+  text-transform: uppercase;
+}
+
+.PhotogDescription {
+  text-align: center;
+}
+
+.PhotogDescription p {
+  color: white;
+  font-family: 'Abel';
+  font-size:20px;
+}
