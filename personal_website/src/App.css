@@ -1,5 +1,5 @@
 body{
-  background: url("https://www.agdelta.com/wp-content/uploads/2018/06/website-parallax-background-C.jpg");
+  background: url("./gradient.jpg");
   background-size: cover;
 }
 
@@ -93,8 +93,12 @@ body{
 /* ------------------------ Photography ------------------------ */
 
 .PhotogContainer {
-  background-color:black;
+  /* background-color:black; */
   margin-top:50px;
+}
+
+.imgContainer {
+  margin-top:50px
 }
 
 .PhotogTitle {
@@ -116,4 +120,16 @@ body{
   color: white;
   font-family: 'Abel';
   font-size:20px;
+}
+
+.cosImage {
+  height: 240px;
+}
+
+.cosImage2 {
+  height: 540px;
+}
+
+.cosImageCol {
+  text-align: center;
 }

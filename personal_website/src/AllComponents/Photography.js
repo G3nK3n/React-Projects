@@ -1,5 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; //Need this for Bootstrap as well
+import img1 from '../DSC_0354.JPG';
+import img2 from '../DSC_0250.JPG';
+import img3 from '../DSC_0462.jpg';
+import img4 from '../DSC_0209.JPG';
+import img5 from '../DSC_0425.JPG';
+import img6 from '../DSC_0409.JPG';
 
 //Bootstrap Imports
 import Container from 'react-bootstrap/Container';
@@ -23,9 +29,19 @@ const photographyComponent = (props) => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
-                        <Photo src={'C:\Users\Ken\Desktop\Stuffs_2017-2018\Images\Photoshoots\Vainvirgos(Bowsette)\DSC_0354.JPG'}/>
-                    </Col>
+                    <Container className="imgContainer">
+                        <Col className="cosImageCol" sm={12}>
+                            <Photo className="cosImage" src={img1} rounded/>
+                            <Photo className="cosImage" src={img2} rounded/>
+                            <Photo className="cosImage" src={img3} rounded/>
+                        </Col>
+                        <Col className="cosImageCol" sm={12}>
+                            <Photo className="cosImage2" src={img4} rounded/>
+                            <Photo className="cosImage2" src={img5} rounded/>
+                            <Photo className="cosImage2" src={img6} rounded/>
+                        </Col>
+                        
+                    </Container>
                 </Row>
             </Container>
         </div>
