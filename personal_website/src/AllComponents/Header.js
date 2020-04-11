@@ -14,10 +14,10 @@ const headerComponent = (props) => {
          <Navbar>
             <NavbarBrand className="NavBarBrand" href="#"> KEN SERRANO </NavbarBrand>
             <Navbar.Item>
-                <Navbar.Link className="NavBarLink" href="#"> About </Navbar.Link>
+                <Navbar.Link onClick={props.clickAbout} className="NavBarLink" href="#"> About </Navbar.Link>
             </Navbar.Item>
             <Navbar.Item>
-                <Navbar.Link className="NavBarLink" href="#"> Photography </Navbar.Link>
+                <Navbar.Link onClick={props.clickPhotog} className="NavBarLink" href="#"> Photography </Navbar.Link>
             </Navbar.Item>
             <Navbar.Item>
                 <Navbar.Link className="NavBarLink" href="#"> Portfolio </Navbar.Link>
