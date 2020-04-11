@@ -24,7 +24,7 @@ const aboutComponent = (props) => {
                             <li> Computer Science Student (Concordia University)</li>
                             <li> 28 </li>
                             <li> Amateur Photographer </li>
-                            <li> <a href="https://github.com/G3nK3n">Github</a> </li>
+                            <li> <a href="https://github.com/G3nK3n">Github (All my portfolio projects)</a> </li>
                             <li> Email: ken_serrano@Hotmail.com </li>
                         </ul>
                     </Col>

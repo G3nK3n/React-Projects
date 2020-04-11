@@ -11,13 +11,11 @@ class App extends Component {
   }
 
   showAboutPage = () => {
-    const showOrNot = this.state.showAbout;
-    this.setState({showAbout: !showOrNot})
+    this.setState({showAbout: true, showPhotography: false})
   }
 
   showPhotogPage = () => {
-    const showOrNot2 = this.state.showPhotography;
-    this.setState({showPhotography: !showOrNot2})
+    this.setState({showPhotography: true, showAbout: false})
   }
 
   render() {

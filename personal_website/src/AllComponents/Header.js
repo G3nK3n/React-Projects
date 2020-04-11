@@ -19,21 +19,8 @@ const headerComponent = (props) => {
             <Navbar.Item>
                 <Navbar.Link onClick={props.clickPhotog} className="NavBarLink" href="#"> Photography </Navbar.Link>
             </Navbar.Item>
-            <Navbar.Item>
-                <Navbar.Link className="NavBarLink" href="#"> Portfolio </Navbar.Link>
-            </Navbar.Item>
          </Navbar>
          </Container>
-         {/*
-            <a href="#">
-                <img className="homeIcon" src="https://i.pinimg.com/236x/da/e0/92/dae092a545e4c09714ee9842ab15dc10.jpg" alt="home_icon" />
-            </a>
-
-            <div className="top_right_links">
-                <a className="linkDisplay" href="#">About</a>
-                <a className="linkDisplay" href="#">Contact</a>
-            </div>
-         */}
         </div>
     );
 }
