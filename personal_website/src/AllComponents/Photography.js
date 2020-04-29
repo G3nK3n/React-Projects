@@ -11,7 +11,39 @@ import img6 from '../DSC_0409.JPG';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Photo from 'react-bootstrap/Image';
+
+
+//Galerie Import
+import ImageGallery from 'react-image-gallery';
+import 'react-image-gallery/styles/css/image-gallery.css';
+
+
+const images = [
+    {
+        original: img1,
+        thumbnail: img1,
+    },
+    {
+        original: img2,
+        thumbnail: img2
+    },
+    {
+        original: img3,
+        thumbnail: img3
+    },
+    {
+        original: img4,
+        thumbnail: img4
+    },
+    {
+        original: img5,
+        thumbnail: img5
+    },
+    {
+        original: img6,
+        thumbnail: img6
+    }
+]
 
 const photographyComponent = (props) => {
     return (
@@ -29,7 +61,12 @@ const photographyComponent = (props) => {
                     </Col>
                 </Row>
                 <Row>
+                    <Col>
+                        <ImageGallery items={images} />
+                    </Col>
+                    {/*
                     <Container className="imgContainer">
+                        Why 2 Col? 
                         <Col className="cosImageCol" sm={12}>
                             <Photo className="cosImage" src={img1} rounded/>
                             <Photo className="cosImage" src={img2} rounded/>
@@ -40,8 +77,8 @@ const photographyComponent = (props) => {
                             <Photo className="cosImage2" src={img5} rounded/>
                             <Photo className="cosImage2" src={img6} rounded/>
                         </Col>
-                        
                     </Container>
+                    */ }
                 </Row>
             </Container>
         </div>

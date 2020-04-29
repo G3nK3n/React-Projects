@@ -55,7 +55,17 @@ body{
 .NavBarBrand {
   font-family: 'Courier New', Courier, monospace;
   margin-top:1.5px;
+  margin-left:10px;
   font-weight:bold;
+}
+
+.NavBarItems{
+  float:right;
+  display: flex;
+}
+
+.wholeNav.nav {
+  display: block;
 }
 
 
@@ -134,7 +144,16 @@ body{
   text-align: center;
 }
 
-/* ------------------------ REACT TRANSITION GROUP ------------------------ */
+/* -- Image Gallery -- */
+
+.image-gallery {
+  margin-top: 30px;
+}
+
+
+
+
+/* ------------------------ REACT TRANSITION GROUP (NOT WORKING :( )------------------------ */
 
 /* appear - on page load */
 .fade-appear {
@@ -153,7 +172,7 @@ body{
 }
 .fade-enter.fade-enter-active {
   opacity: 1;
-  transition: opacity 300ms linear;
+  transition: opacity 3000ms linear;
 }
 
 /* exit - when fading out */ 
@@ -161,7 +180,8 @@ body{
   opacity: 1;
 }
 .fade-exit.fade-exit-active {
-  opacity: 0;
-  transition: opacity 1000ms linear;
+  opacity: 0.01;
+  transition: opacity 5000ms linear;
+  color:green;
 }
 
