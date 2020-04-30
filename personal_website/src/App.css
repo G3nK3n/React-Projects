@@ -72,21 +72,55 @@ body{
 /* ------------------------ ABOUT ------------------------ */
 
 .AboutDiv {
-  /*background-color: black;*/
+  background-color: black;
   height: 350px;
   margin-top: 120px;
 }
 
-.AboutDiv h1 {
+.AboutMe {
   text-align:center;
   color:white;
   font-weight:bold;
+  font-size:50px;
+  margin-bottom:-5px;
+}
+
+.JobTitle {
+  text-align:center;
+
+}
+
+.AboutMeDesc {
+  margin-top: 25px;
+}
+
+.AboutMeDesc p {
+  text-align: center;
+}
+
+.someLine {
+  color:green;
+  background-color: green; 
+  height: 5;
+}
+
+.Sub-Title {
+  text-decoration: underline;
+}
+
+.DateStartEnd {
+  text-align: right;
+}
+
+.CompanyAddress {
+  margin-top:-15px;
 }
 
 .AboutDiv p {
   color:white;
 }
 
+/*
 .AboutMeDesc {
   margin-left: 200px;
   margin-top: 20px;
@@ -99,6 +133,7 @@ body{
 .AboutMeDesc a {
   color:white;
 }
+*/
 
 /* ------------------------ PHOTOGRAPHY ------------------------ */
 

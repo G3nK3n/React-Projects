@@ -6,12 +6,40 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 //import ListGroup from 'react-bootstrap/ListGroup'
 
+const someLine = ({ colour }) => (
+    <hr style={{colour:colour, 
+                backgroundColour: colour, 
+                height: 5
+        }}
+    />
+);
 
 
 const aboutComponent = (props) => {
     return(
         <div>  
             <Container className="AboutDiv">
+                <h1 className="AboutMe">About me</h1>
+                <h5 className="JobTitle">Software/Web Developer - Student</h5>                    
+                <div className="AboutMeDesc">
+                    <p>Hello, this will be a brief description of me. Coming soon!</p>
+                </div>
+                
+                <hr className="someLine"/>
+                        
+                <h4 className="Sub-Title">Education</h4>
+                <Row>
+                    <Col>
+                        <h5>Bachelors of Computer Science</h5>
+                    </Col>
+                    <Col>
+                        <p className="DateStartEnd">2014 - Present</p>
+                    </Col>
+                </Row>
+                <h6 className="CompanyAddress">Concordia University, Montreal, QC</h6>
+
+            
+            {/*
                 <Row>
                     <Col sm={12}>
                         <h1>About Me</h1>
@@ -31,6 +59,7 @@ const aboutComponent = (props) => {
                         </ul>
                     </Col>
                 </Row>
+            */}
             </Container>
         </div>
     );

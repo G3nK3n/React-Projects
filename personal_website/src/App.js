@@ -3,12 +3,12 @@ import Header from './AllComponents/Header.js';
 import About from './AllComponents/About.js';
 import Photography from './AllComponents/Photography.js';
 import '../src/App.css';
-import { CSSTransition } from 'react-transition-group';
+//import { CSSTransition } from 'react-transition-group';
 
 class App extends Component {
 
   state = {
-    showAbout: false, 
+    showAbout: true, 
     showPhotography: false
   }
 
