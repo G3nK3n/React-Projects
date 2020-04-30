@@ -9,7 +9,7 @@ class App extends Component {
 
   state = {
     showAbout: false, 
-    showPhotography: true
+    showPhotography: false
   }
 
   showAboutPage = () => {

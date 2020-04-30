@@ -1,5 +1,5 @@
 body{
-  background: url("./gradient.jpg");
+  background: url("./background_image.jpg");
   background-size: cover;
 }
 
@@ -100,15 +100,11 @@ body{
   color:white;
 }
 
-/* ------------------------ Photography ------------------------ */
+/* ------------------------ PHOTOGRAPHY ------------------------ */
 
 .PhotogContainer {
   /* background-color:black; */
   margin-top:50px;
-}
-
-.imgContainer {
-  margin-top:50px
 }
 
 .PhotogTitle {
@@ -130,14 +126,6 @@ body{
   color: white;
   font-family: 'Abel';
   font-size:20px;
-}
-
-.cosImage {
-  height: 240px;
-}
-
-.cosImage2 {
-  height: 540px;
 }
 
 .cosImageCol {

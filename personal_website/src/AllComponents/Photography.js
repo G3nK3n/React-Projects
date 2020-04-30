@@ -22,14 +22,17 @@ const images = [
     {
         original: img1,
         thumbnail: img1,
+        originalTitle: "Bowsette"
     },
     {
         original: img2,
-        thumbnail: img2
+        thumbnail: img2,
+        originalTitle: "Steve Burnside - RE Code Veronica"
     },
     {
         original: img3,
-        thumbnail: img3
+        thumbnail: img3,
+        originalTitle: "Nagisa - Assassination Classroom"
     },
     {
         original: img4,
@@ -41,7 +44,8 @@ const images = [
     },
     {
         original: img6,
-        thumbnail: img6
+        thumbnail: img6,
+        originalTitle: "John Wick"
     }
 ]
 
@@ -55,7 +59,7 @@ const photographyComponent = (props) => {
                             <h1>I'm Ken</h1>
                         </div>
                         <div className="PhotogDescription">
-                            <p>Here are some of my pictures that I took as a amateur photographer <br />
+                            <p>Here are some of my pictures that I took as an amateur photographer <br />
                                with my <b>Nikon D3400</b> attached with my 35mm lens</p>
                         </div>
                     </Col>
@@ -64,21 +68,6 @@ const photographyComponent = (props) => {
                     <Col>
                         <ImageGallery items={images} />
                     </Col>
-                    {/*
-                    <Container className="imgContainer">
-                        Why 2 Col? 
-                        <Col className="cosImageCol" sm={12}>
-                            <Photo className="cosImage" src={img1} rounded/>
-                            <Photo className="cosImage" src={img2} rounded/>
-                            <Photo className="cosImage" src={img3} rounded/>
-                        </Col>
-                        <Col className="cosImageCol" sm={12}>
-                            <Photo className="cosImage2" src={img4} rounded/>
-                            <Photo className="cosImage2" src={img5} rounded/>
-                            <Photo className="cosImage2" src={img6} rounded/>
-                        </Col>
-                    </Container>
-                    */ }
                 </Row>
             </Container>
         </div>
