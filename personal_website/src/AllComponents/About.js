@@ -38,6 +38,46 @@ const aboutComponent = (props) => {
                 </Row>
                 <h6 className="CompanyAddress">Concordia University, Montreal, QC</h6>
 
+                <Row>
+                    <Col>
+                        <h5>DEC in Computer Science</h5>
+                    </Col>
+                    <Col>
+                        <p className="DateStartEnd">2009 - 2013</p>
+                    </Col>
+                </Row>
+                <h6 className="CompanyAddress">CEGEP Vanier, Montreal, QC</h6>
+
+                <h4 className="Sub-Title">Experience</h4>
+                <Row>
+                    <Col>
+                        <h5>Office Assistant</h5>
+                    </Col>
+                    <Col>
+                        <p className="DateStartEnd">May 2019 - Present</p>
+                    </Col>
+                </Row>
+                <h6 className="CompanyAddress">Ville de Dollard-Des-Ormeaux, D.D.O, QC</h6>
+                <div className="ExperienceDesc">
+                    <p>- Enter data and file documents.</p>
+                    <p>- Handle customer service duties, both in person and over the phone.</p>
+                    <p>- Convert documents into digital format.</p>
+                </div>
+
+                <Row>
+                    <Col>
+                        <h5>Office Assistant</h5>
+                    </Col>
+                    <Col>
+                        <p className="DateStartEnd">May 2019 - Present</p>
+                    </Col>
+                </Row>
+                <h6 className="CompanyAddress">Ville de Dollard-Des-Ormeaux, D.D.O, QC</h6>
+                <div className="ExperienceDesc">
+                    <p>- Enter data and file documents.</p>
+                    <p>- Handle customer service duties, both in person and over the phone.</p>
+                    <p>- Convert documents into digital format.</p>
+                </div>
             
             {/*
                 <Row>

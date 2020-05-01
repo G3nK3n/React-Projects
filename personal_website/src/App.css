@@ -73,7 +73,7 @@ body{
 
 .AboutDiv {
   background-color: black;
-  height: 350px;
+  height: auto;
   margin-top: 120px;
 }
 
@@ -114,6 +114,11 @@ body{
 
 .CompanyAddress {
   margin-top:-15px;
+  margin-bottom:15px;
+}
+
+.ExperienceDesc p{
+  margin-bottom: -5px;
 }
 
 .AboutDiv p {
