@@ -48,6 +48,9 @@ const aboutComponent = (props) => {
                 </Row>
                 <h6 className="CompanyAddress">CEGEP Vanier, Montreal, QC</h6>
 
+
+
+                {/* EXPERIENCE SECTION */}
                 <h4 className="Sub-Title">Experience</h4>
                 <Row>
                     <Col>
@@ -57,13 +60,12 @@ const aboutComponent = (props) => {
                         <p className="DateStartEnd">May 2019 - Present</p>
                     </Col>
                 </Row>
-                <h6 className="CompanyAddress">Ville de Dollard-Des-Ormeaux, D.D.O, QC</h6>
-                <div className="ExperienceDesc">
+                <h6 className="CompanyAddress2">Ville de Dollard-Des-Ormeaux, D.D.O, QC</h6>
+                <div className="ExperienceDesc2">
                     <p>- Enter data and file documents.</p>
                     <p>- Handle customer service duties, both in person and over the phone.</p>
                     <p>- Convert documents into digital format.</p>
                 </div>
-
                 <Row>
                     <Col>
                         <h5>Office Assistant</h5>
@@ -72,8 +74,36 @@ const aboutComponent = (props) => {
                         <p className="DateStartEnd">May 2019 - Present</p>
                     </Col>
                 </Row>
-                <h6 className="CompanyAddress">Ville de Dollard-Des-Ormeaux, D.D.O, QC</h6>
-                <div className="ExperienceDesc">
+                <h6 className="CompanyAddress2">Ville de Dollard-Des-Ormeaux, D.D.O, QC</h6>
+                <div className="ExperienceDesc2">
+                    <p>- Enter data and file documents.</p>
+                    <p>- Handle customer service duties, both in person and over the phone.</p>
+                    <p>- Convert documents into digital format.</p>
+                </div>
+                <Row>
+                    <Col>
+                        <h5>Office Assistant</h5>
+                    </Col>
+                    <Col>
+                        <p className="DateStartEnd">May 2019 - Present</p>
+                    </Col>
+                </Row>
+                <h6 className="CompanyAddress2">Ville de Dollard-Des-Ormeaux, D.D.O, QC</h6>
+                <div className="ExperienceDesc2">
+                    <p>- Enter data and file documents.</p>
+                    <p>- Handle customer service duties, both in person and over the phone.</p>
+                    <p>- Convert documents into digital format.</p>
+                </div>
+                <Row>
+                    <Col>
+                        <h5>Office Assistant</h5>
+                    </Col>
+                    <Col>
+                        <p className="DateStartEnd">May 2019 - Present</p>
+                    </Col>
+                </Row>
+                <h6 className="CompanyAddress2">Ville de Dollard-Des-Ormeaux, D.D.O, QC</h6>
+                <div className="ExperienceDesc2">
                     <p>- Enter data and file documents.</p>
                     <p>- Handle customer service duties, both in person and over the phone.</p>
                     <p>- Convert documents into digital format.</p>

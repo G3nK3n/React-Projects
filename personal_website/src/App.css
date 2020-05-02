@@ -112,12 +112,21 @@ body{
   text-align: right;
 }
 
+.CompanyAddress2 {
+  margin-top: -15px;
+  margin-bottom: 0px;
+}
+
 .CompanyAddress {
   margin-top:-15px;
   margin-bottom:15px;
 }
 
-.ExperienceDesc p{
+.ExperienceDesc2 {
+  margin-bottom:15px;
+}
+
+.ExperienceDesc2 p{
   margin-bottom: -5px;
 }
 
