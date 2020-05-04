@@ -9,7 +9,7 @@ import '../src/App.css';
 class App extends Component {
 
   state = {
-    showResume: false, 
+    showResume: true, 
     showPhotography: false,
     showAbout: false
   }
