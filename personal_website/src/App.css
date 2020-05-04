@@ -106,6 +106,7 @@ body{
 
 .Sub-Title {
   text-decoration: underline;
+  margin-bottom: 25px;
 }
 
 .DateStartEnd {

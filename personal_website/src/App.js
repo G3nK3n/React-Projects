@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './AllComponents/Header.js';
+import Resume from './AllComponents/Resume.js';
 import About from './AllComponents/About.js';
 import Photography from './AllComponents/Photography.js';
 import '../src/App.css';
@@ -8,28 +9,34 @@ import '../src/App.css';
 class App extends Component {
 
   state = {
-    showAbout: true, 
-    showPhotography: false
+    showResume: false, 
+    showPhotography: false,
+    showAbout: false
   }
 
-  showAboutPage = () => {
-    const wtv = this.state.showAbout
-    this.setState({showAbout: !wtv, showPhotography: false})
+  showResumePage = () => {
+    const wtv = this.state.showResume
+    this.setState({showResume: !wtv, showPhotography: false, showAbout: false})
   }
 
   showPhotogPage = () => {
     const wtv = this.state.showPhotography
-    this.setState({showAbout: false, showPhotography: !wtv})
+    this.setState({showResume: false, showPhotography: !wtv, showAbout: false})
+  }
+
+  showAboutPage = () => {
+    const wtv = this.state.showAbout
+    this.setState({showResume: false, showPhotography: false, showAbout: !wtv})
   }
 
   render() {
 
   let thePage = null;
 
-  if(this.state.showAbout) {
+  if(this.state.showResume) {
     thePage = (
       <div>
-         <About />
+         <Resume />
       </div>
     )
   } 
@@ -39,16 +46,23 @@ class App extends Component {
           <Photography />
       </div>
     )
+  }
+  else if (this.state.showAbout) {
+    thePage = (
+      <div>
+        <About />
+      </div>
+    )
   } 
     
   
   return(
       <div>
-        <Header clickAbout={this.showAboutPage} clickPhotog={this.showPhotogPage}/>
+        <Header clickResume={this.showResumePage} clickPhotog={this.showPhotogPage} clickAbout={this.showAboutPage}/>
          {/*
-         <Header clickAbout={this.showAboutPage} clickPhotog={this.showPhotogPage}/>
+         <Header clickAbout={this.showResumePage} clickPhotog={this.showPhotogPage}/>
          <CSSTransition
-              in={this.state.showAbout}
+              in={this.state.showResume}
               timeout={{enter:3000, exit:5000 }}
               classNames={'fade'}>
             <div>

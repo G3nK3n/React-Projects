@@ -61,6 +61,7 @@ const photographyComponent = (props) => {
                         <div className="PhotogDescription">
                             <p>Here are some of my pictures that I took as an amateur photographer <br />
                                with my <b>Nikon D3400</b> attached with my 35mm lens</p>
+                            <p> You can find more on my instagram account: @kenserrano27</p>
                         </div>
                     </Col>
                 </Row>

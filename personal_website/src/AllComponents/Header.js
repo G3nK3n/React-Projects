@@ -21,11 +21,15 @@ const headerComponent = (props) => {
                 <Col sm={10}>
                     <div className="NavBarItems">
                         <Navbar.Item>
-                            <Navbar.Link onClick={props.clickAbout} className="NavBarLink" href="#"> About </Navbar.Link>
+                            <Navbar.Link onClick={props.clickResume} className="NavBarLink" href="#"> Resume </Navbar.Link>
+                        </Navbar.Item>
+                        <Navbar.Item>
+                            <Navbar.Link className="NavBarLink" onClick={props.clickAbout} href="#"> About Me </Navbar.Link>
                         </Navbar.Item>
                         <Navbar.Item>
                             <Navbar.Link onClick={props.clickPhotog} className="NavBarLink" href="#"> Photography </Navbar.Link>
                         </Navbar.Item>
+                        
                     </div>
                 </Col>
             </Row>
