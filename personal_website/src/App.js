@@ -59,17 +59,6 @@ class App extends Component {
   return(
       <div>
         <Header clickResume={this.showResumePage} clickPhotog={this.showPhotogPage} clickAbout={this.showAboutPage}/>
-         {/*
-         <Header clickAbout={this.showResumePage} clickPhotog={this.showPhotogPage}/>
-         <CSSTransition
-              in={this.state.showResume}
-              timeout={{enter:3000, exit:5000 }}
-              classNames={'fade'}>
-            <div>
-              {thePage}
-            </div>
-         </CSSTransition>
-         */}
          {thePage}
       </div>
 
