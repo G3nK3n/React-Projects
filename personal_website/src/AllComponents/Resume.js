@@ -111,6 +111,49 @@ const resumeComponent = (props) => {
                         </Col>
                     </Row>
                 </div>
+
+                <hr className="someLine"/>
+
+                { /* Technologies section */ }
+
+                <div>
+                    <h4 className="Sub-Title">Technologies</h4>
+                    <div className="TechSection">
+                        <Row>
+                            <Col sm={4}>
+                                <h5>Highly Proficient</h5>
+                                <ul>
+                                    <li>Java</li>
+                                    <li>Visual Basic</li>
+                                    <li>VBA</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                </ul>
+                            </Col>
+                            <Col sm={4}>
+                                <h5>Basic Knowledge</h5>
+                                <ul>
+                                    <li>C++</li>
+                                    <li>ASP</li>
+                                    <li>ReactJS</li>
+                                    <li>NodeJS</li>
+                                    <li>Python</li>
+                                </ul>
+                            </Col>
+                            <Col sm={4}>
+                                <h5>Environment</h5>
+                                <ul>
+                                    <li>Eclipse</li>
+                                    <li>Visual Studio(Code)</li>
+                                    <li>GitHub</li>
+                                </ul>
+                            </Col>
+                        </Row>
+                    </div>
+                </div>
             </Container>
         </div>
     );

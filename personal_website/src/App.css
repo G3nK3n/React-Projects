@@ -114,8 +114,8 @@ body{
 }
 
 .someLine {
-  color:green;
-  background-color: green; 
+  color:#0040FF;
+  background-color: #0040FF; 
   height: 5;
 }
 
@@ -141,6 +141,16 @@ h5, h6 {
 h6 {
   text-transform: uppercase;
 }
+
+.TechSection {
+  margin-left:100px;
+  padding:20px;
+}
+
+.TechSection li {
+  color:white;
+}
+
 /*
 .CompanyAddress2 {
   margin-top: -15px;
