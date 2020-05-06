@@ -9,9 +9,9 @@ import '../src/App.css';
 class App extends Component {
 
   state = {
-    showResume: true, 
+    showResume: false, 
     showPhotography: false,
-    showAbout: false
+    showAbout: true
   }
 
   showResumePage = () => {

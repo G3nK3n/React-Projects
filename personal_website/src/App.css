@@ -77,7 +77,24 @@ body{
   margin-top: 120px;
 }
 
-.AboutDiv p {
+.AboutDiv2InnerContainer {
+  padding:40px;
+}
+
+.AboutDiv2 {
+  background-color: #1a1a1a;
+  height: auto;
+  margin-top: 120px;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.AboutDiv2.container {
+  padding-left:40px;
+  padding-right:40px;
+}
+
+.AboutDiv p, .AboutDiv2 p {
   color:white;
 }
 
@@ -93,6 +110,17 @@ body{
   text-align:center;
   color:#0080FF;
   font-size:50px;
+  margin-bottom:-5px;
+  padding: 20px;
+  font-family: 'Abel';
+  /* font-family: 'Open Sans', sans-serif; */
+  text-transform: uppercase;
+}
+
+.ResumeTitle2 {
+  text-align:center;
+  color:#0080FF;
+  font-size:110px;
   margin-bottom:-5px;
   padding: 20px;
   font-family: 'Abel';
@@ -151,41 +179,18 @@ h6 {
   color:white;
 }
 
-/*
-.CompanyAddress2 {
-  margin-top: -15px;
-  margin-bottom: 0px;
+.AboutMeTitle {
+  /* background-color: #606060; */
 }
 
-.CompanyAddress {
-  margin-top:-15px;
-  margin-bottom:15px;
+.ProfilePicContainer{
+  text-align: center;
+  margin-bottom:20px;
 }
 
-.ExperienceDesc2 {
-  margin-bottom:15px;
+.ProfilePic {
+  width:150px;
 }
-
-.ExperienceDesc2 p{
-  margin-bottom: -5px;
-}
-
- */
-
-/*
-.AboutMeDesc {
-  margin-left: 200px;
-  margin-top: 20px;
-}
-
-.AboutMeDesc li {
-  color:white;
-}
-
-.AboutMeDesc a {
-  color:white;
-}
-*/
 
 /* ------------------------ PHOTOGRAPHY ------------------------ */
 
