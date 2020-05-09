@@ -1,5 +1,5 @@
 body{
-  background: url("./background_image.jpg");
+  background: url("./background-image2.jpg");
   background-size: cover;
 }
 
@@ -94,7 +94,7 @@ body{
   padding-right:40px;
 }
 
-.AboutDiv p, .AboutDiv2 p {
+.AboutDiv p, .AboutDiv2 p, .ContactDiv p {
   color:white;
 }
 
@@ -179,10 +179,6 @@ h6 {
   color:white;
 }
 
-.AboutMeTitle {
-  /* background-color: #606060; */
-}
-
 .ProfilePicContainer{
   text-align: center;
   margin-bottom:20px;
@@ -230,6 +226,52 @@ h6 {
   margin-top: 30px;
 }
 
+/* ------------------------ CONTACT ME ------------------------ */
+
+.ContactDiv {
+  background-color: #1a1a1a;
+  height: auto;
+  margin-top: 120px;
+  padding: 75px;
+}
+
+.ContactDiv.container {
+  padding-left:74px;
+  /* padding-right:74px; */
+}
+
+.ContactLinks {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Hotmail_Icon {
+  width: 75px;
+}
+
+.LinkedIn_Icon {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.form-label {
+  color: #4080FF;
+}
+
+.SubmitButton {
+  margin-top: 20px;
+  float:right; 
+}
+
+.someVerticalLine {
+  color:#0040FF;
+  background-color: #0040FF; 
+  width:1px;
+}
+
+.MessageBox.form-control {
+  height: 130px;
+}
 
 
 
