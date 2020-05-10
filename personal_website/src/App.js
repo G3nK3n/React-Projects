@@ -13,7 +13,7 @@ class App extends Component {
     showResume: false, 
     showPhotography: false,
     showAbout: false,
-    showContact: true
+    showContact: false
   }
 
   showResumePage = () => {

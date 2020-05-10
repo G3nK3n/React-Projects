@@ -49,6 +49,7 @@ body{
 }
 
 .NavBarLink{
+  font-family: 'Abel';
   color: white;
 } 
 
@@ -68,6 +69,13 @@ body{
   display: block;
 }
 
+.someVerticalLine2 {
+  color:#0040FF;
+  background-color: #0040FF; 
+  width:0.5px;
+  height: 23.5px;
+  margin-top: 10px
+}
 
 /* ------------------------ ABOUT AND RESUME ------------------------ */
 
@@ -250,7 +258,6 @@ h6 {
 }
 
 .LinkedIn_Icon {
-  padding-left: 40px;
   padding-right: 40px;
 }
 
