@@ -42,7 +42,8 @@ const aboutMe = (props) => {
                                 <p>
                                     I have been an amateur photographer for the past 3 years, taking portrait style photography using my Nikon D3400 and
                                     35mm lens 1.8G. I love the sharpness of the subject and popping out the colors, which also creates a beautiful blurred
-                                    background. You can see some of my pictures in the Photography section.
+                                    background. You can see some of my pictures in the Photography section. If you would like to have a photoshoot with me, 
+                                    dont hesitate to contact me here or on my instagram Photography Account. Thank you!
                                     {/* Maybe move this paragraph in Photography section */ }
                                 </p>
                             </div>

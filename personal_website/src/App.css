@@ -43,6 +43,33 @@ body{
   }
 }
 
+/* ------------------------ HOME ------------------------ */
+.homeTitle {
+  margin-top: 120px;
+}
+
+.HomeDiv {
+  /* background-color: #1a1a1a; */
+  height: auto;
+  margin-top: 120px;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.HomeDivInnerContainer {
+  padding:40px;
+}
+
+.HomeDiv.container {
+  padding-left:40px;
+  padding-right:40px;
+}
+
+.HomeDiv .AboutMe {
+  color:white;
+  font-family: 'Abel';
+}
+
 /* ------------------------ HEADER ------------------------ */
 
 .NavBar {
@@ -76,6 +103,10 @@ body{
   width:0.5px;
   height: 23.5px;
   margin-top: 10px
+}
+
+a.NavBarBrand.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* ------------------------ ABOUT AND RESUME ------------------------ */

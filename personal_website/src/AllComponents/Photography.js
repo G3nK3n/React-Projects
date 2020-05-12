@@ -56,7 +56,7 @@ const photographyComponent = (props) => {
                 <Row>
                     <Col sm={12}>
                         <div className="PhotogTitle">
-                            <h1>I'm Ken</h1>
+                            <h1>Photography</h1>
                         </div>
                         <div className="PhotogDescription">
                             <p>Here are some of my pictures that I took as an amateur photographer <br />

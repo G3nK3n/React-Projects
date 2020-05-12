@@ -16,7 +16,7 @@ const headerComponent = (props) => {
          <Navbar className="wholeNav">
             <Row>
                 <Col sm={2}>
-                    <NavbarBrand className="NavBarBrand" href="#"> KEN SERRANO </NavbarBrand>
+                    <NavbarBrand onClick={props.clickHome}className="NavBarBrand" href="#"> KEN SERRANO </NavbarBrand>
                 </Col>
                 <Col sm={10}>
                     <div className="NavBarItems">
