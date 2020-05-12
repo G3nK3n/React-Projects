@@ -85,7 +85,8 @@ class App extends Component {
   
   return(
       <div>
-        <Header clickResume={this.showResumePage} clickPhotog={this.showPhotogPage} clickAbout={this.showAboutPage} clickContact={this.showContactPage} clickHome={this.showHomePage}/>
+        <Header clickResume={this.showResumePage} clickPhotog={this.showPhotogPage} clickAbout={this.showAboutPage} 
+          clickContact={this.showContactPage} clickHome={this.showHomePage}/>
          {thePage}
       </div>
 
@@ -94,6 +95,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-// FIX THE EXIT OF REACT TRANSITION GROUP
