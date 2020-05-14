@@ -16,6 +16,14 @@ import Col from 'react-bootstrap/Col';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
+import styled, { keyframes } from 'styled-components';
+import { fadeIn } from 'react-animations';
+
+const fadeAnimation = keyframes`${fadeIn}`;
+
+const TheFade = styled.div`
+  animation: 0.3s ${fadeAnimation};
+`;
 
 const images = [
     {
@@ -51,25 +59,34 @@ const images = [
 const photographyComponent = (props) => {
     return (
         <div>
-            <Container className="PhotogContainer" fluid>
-                <Row>
-                    <Col sm={12}>
-                        <div className="PhotogTitle">
-                            <h1>Photography</h1>
-                        </div>
-                        <div className="PhotogDescription">
-                            <p>Here are some of my pictures that I took as an amateur photographer <br />
-                               with my <b>Nikon D3400</b> attached with my 35mm lens</p>
-                            <p> You can find more on my instagram account: @kenserrano27</p>
-                        </div>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <ImageGallery items={images} />
-                    </Col>
-                </Row>
-            </Container>
+            <TheFade>
+                <Container className="PhotogContainer" fluid>
+                    <Row>
+                        <Col sm={12}>
+                            <Container>
+                                <div className="photographyDescContainer">
+                                    <div className="PhotogTitle">
+                                        <h1>Photography</h1>
+                                    </div>
+                                    <div className="PhotogDescription">
+                                        <p>Here are some of my pictures that I took as an amateur photographer <br />
+                                        with my <b>Nikon D3400</b> attached with my 35mm lens</p>
+                                        {/* Added breaking points for now.... */}
+                                        <br /> <br />
+                                        <p> You can find more on my instagram account: @kenserrano27</p>
+                                    </div>
+                                </div>
+                            </Container>
+                        </Col>
+                        
+                    </Row>
+                    <Row>
+                        <Col>
+                            <ImageGallery items={images} />
+                        </Col>
+                    </Row>
+                </Container>
+            </TheFade>
         </div>
     )
 }

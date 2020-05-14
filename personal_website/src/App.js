@@ -63,14 +63,14 @@ class App extends Component {
   else if (this.state.showAbout) {
     thePage = (
       <div>
-        <About />
+          <About />
       </div>
     )
   }
   else if (this.state.showContact) {
     thePage = (
       <div>
-        <Contact />
+          <Contact />
       </div>
     )
   }
@@ -82,7 +82,6 @@ class App extends Component {
     )
   } 
     
-  
   return(
       <div>
         <Header clickResume={this.showResumePage} clickPhotog={this.showPhotogPage} clickAbout={this.showAboutPage} 
