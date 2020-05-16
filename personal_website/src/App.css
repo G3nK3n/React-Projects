@@ -79,6 +79,7 @@ body{
 .NavBarLink{
   font-family: 'Abel';
   color: white;
+  font-size: 17px;
 } 
 
 .NavBarBrand {
@@ -311,6 +312,8 @@ h6 {
 .MessageBox.form-control {
   height: 130px;
 }
+
+/* ------------------------ Projects ------------------------ */
 
 
 

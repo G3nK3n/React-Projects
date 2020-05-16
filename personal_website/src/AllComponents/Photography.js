@@ -16,6 +16,7 @@ import Col from 'react-bootstrap/Col';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
+// Fade-in animation and const
 import styled, { keyframes } from 'styled-components';
 import { fadeIn } from 'react-animations';
 

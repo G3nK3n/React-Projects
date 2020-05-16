@@ -13,12 +13,13 @@ import Image from 'react-bootstrap/Image';
 import LinkedIn from '../LinkedIn_Icon.png';
 import Hotmail from '../Hotmail_Icon.png';
 
+// Fade-in animation and const
 import styled, { keyframes } from 'styled-components';
 import { fadeIn } from 'react-animations';
 
 const fadeAnimation = keyframes`${fadeIn}`;
 
-{/* Apparently you cant use it like old CSS way in V4 */}
+// Apparently you cant use it like old CSS way in V4 
 const TheFade = styled.div`
   animation: 0.3s ${fadeAnimation};
 `;
@@ -31,7 +32,7 @@ const contactComponent = (props) => {
                     <Row>
                         <Col sm={5}>
                             <div className="ContactLinks">
-                                <a href="https://www.linkedin.com/in/kenserrano/" target="_blank" ><Image className="LinkedIn_Icon" src={LinkedIn} /></a>
+                                <a href="https://www.linkedin.com/in/kenserrano/" target="_blank" rel="noopener noreferrer" ><Image className="LinkedIn_Icon" src={LinkedIn} /></a>
                                 <a href="mailto:ken_serrano@Hotmail.com" ><Image className="Hotmail_Icon" src={Hotmail} /></a>
                             </div>
 

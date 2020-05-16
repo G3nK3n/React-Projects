@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 //import ListGroup from 'react-bootstrap/ListGroup'
 
+// Fade-in animation and const
 import styled, { keyframes } from 'styled-components';
 import { fadeIn } from 'react-animations';
 

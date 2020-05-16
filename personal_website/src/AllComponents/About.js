@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import img1 from '../my_head.jpg';
 
+// Fade-in animation and const
 import styled, { keyframes } from 'styled-components';
 import { fadeIn } from 'react-animations';
 

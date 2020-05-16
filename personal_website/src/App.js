@@ -5,8 +5,10 @@ import About from './AllComponents/About.js';
 import Photography from './AllComponents/Photography.js';
 import Contact from './AllComponents/Contact.js';
 import Home from './AllComponents/Home.js';
+import Project from './AllComponents/Project.js';
 import '../src/App.css';
 //import { CSSTransition } from 'react-transition-group';
+
 
 class App extends Component {
 
@@ -15,7 +17,8 @@ class App extends Component {
     showResume: false, 
     showPhotography: false,
     showAbout: false,
-    showContact: false
+    showContact: false,
+    showProject: false
   }
 
   showResumePage = () => {
@@ -38,6 +41,11 @@ class App extends Component {
     this.setState({showResume: false, showPhotography: false, showAbout: false, showContact: !wtv, showHome: false})
   }
 
+  showProjectPage = () => {
+    const wtv = this.state.showProject
+    this.setState({showResume: false, showPhotography: false, showAbout: false, showContact: false, showHome: false, showProject: !wtv})
+  }
+
   showHomePage = () => {
     this.setState({showResume: false, showPhotography: false, showAbout: false, showContact: false, showHome: true})
   }
@@ -47,14 +55,14 @@ class App extends Component {
   let thePage = null;
 
   if(this.state.showResume) {
-    thePage = (
+    thePage = ( 
       <div>
          <Resume />
       </div>
     )
   } 
   else if (this.state.showPhotography) {
-    thePage = (
+    thePage = ( 
       <div>
           <Photography />
       </div>
@@ -80,12 +88,19 @@ class App extends Component {
         <Home />
       </div>
     )
+  }
+  else if (this.state.showProject) {
+    thePage = (
+      <div>
+        <Project />
+      </div>
+    )
   } 
     
   return(
       <div>
         <Header clickResume={this.showResumePage} clickPhotog={this.showPhotogPage} clickAbout={this.showAboutPage} 
-          clickContact={this.showContactPage} clickHome={this.showHomePage}/>
+          clickContact={this.showContactPage} clickHome={this.showHomePage} clickProject={this.showProjectPage}/>
          {thePage}
       </div>
 

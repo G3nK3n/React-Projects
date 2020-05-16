@@ -25,6 +25,10 @@ const headerComponent = (props) => {
                         </Navbar.Item>
                         <vl className="someVerticalLine2"/>
                         <Navbar.Item>
+                            <Navbar.Link onClick={props.clickProject} className="NavBarLink" href="#"> Projects </Navbar.Link>
+                        </Navbar.Item>
+                        <vl className="someVerticalLine2"/>
+                        <Navbar.Item>
                             <Navbar.Link onClick={props.clickPhotog} className="NavBarLink" href="#"> Photography </Navbar.Link>
                         </Navbar.Item>
                         <vl className="someVerticalLine2"/>
