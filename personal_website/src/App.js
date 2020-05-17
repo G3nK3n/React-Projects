@@ -23,22 +23,22 @@ class App extends Component {
 
   showResumePage = () => {
     const wtv = this.state.showResume
-    this.setState({showResume: !wtv, showPhotography: false, showAbout: false, showContact: false, showHome: false})
+    this.setState({showResume: !wtv, showPhotography: false, showAbout: false, showContact: false, showHome: false, showProject: false})
   }
 
   showPhotogPage = () => {
     const wtv = this.state.showPhotography
-    this.setState({showResume: false, showPhotography: !wtv, showAbout: false, showContact: false, showHome: false})
+    this.setState({showResume: false, showPhotography: !wtv, showAbout: false, showContact: false, showHome: false, showProject: false})
   }
 
   showAboutPage = () => {
     const wtv = this.state.showAbout
-    this.setState({showResume: false, showPhotography: false, showAbout: !wtv, showContact:false, showHome: false})
+    this.setState({showResume: false, showPhotography: false, showAbout: !wtv, showContact:false, showHome: false, showProject: false})
   }
 
   showContactPage = () => {
     const wtv = this.state.showContact
-    this.setState({showResume: false, showPhotography: false, showAbout: false, showContact: !wtv, showHome: false})
+    this.setState({showResume: false, showPhotography: false, showAbout: false, showContact: !wtv, showHome: false, showProject: false})
   }
 
   showProjectPage = () => {
@@ -47,7 +47,7 @@ class App extends Component {
   }
 
   showHomePage = () => {
-    this.setState({showResume: false, showPhotography: false, showAbout: false, showContact: false, showHome: true})
+    this.setState({showResume: false, showPhotography: false, showAbout: false, showContact: false, showHome: true, showProject: false})
   }
 
   render() {
