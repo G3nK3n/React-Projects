@@ -13,10 +13,10 @@ import '../src/App.css';
 class App extends Component {
 
   state = {
-    showHome: true,
+    showHome: false,
     showResume: false, 
     showPhotography: false,
-    showAbout: false,
+    showAbout: true,
     showContact: false,
     showProject: false
   }

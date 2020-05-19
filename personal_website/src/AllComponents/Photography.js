@@ -63,7 +63,7 @@ const photographyComponent = (props) => {
             <TheFade>
                 <Container className="PhotogContainer" fluid>
                     <Row>
-                        <Col sm={12}>
+                        <Col sm md lg={12}>
                             <Container>
                                 <div className="photographyDescContainer">
                                     <div className="PhotogTitle">

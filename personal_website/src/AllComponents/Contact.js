@@ -30,7 +30,7 @@ const contactComponent = (props) => {
             <TheFade>
                 <Container className="ContactDiv">
                     <Row>
-                        <Col sm={5}>
+                        <Col lg md sm={5}>
                             <div className="ContactLinks">
                                 <a href="https://www.linkedin.com/in/kenserrano/" target="_blank" rel="noopener noreferrer" ><Image className="LinkedIn_Icon" src={LinkedIn} /></a>
                                 <a href="mailto:ken_serrano@Hotmail.com" ><Image className="Hotmail_Icon" src={Hotmail} /></a>
@@ -47,7 +47,7 @@ const contactComponent = (props) => {
 
                         <vl className="someVerticalLine"/>
 
-                        <Col sm={6}>
+                        <Col lg md sm={6}>
                             <div className="FormContainer">
                                 <Form>
                                     <Form.Group controlId="formBasicName">

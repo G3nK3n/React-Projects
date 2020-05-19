@@ -112,6 +112,8 @@ a.NavBarBrand.navbar-brand {
 
 /* ------------------------ ABOUT AND RESUME ------------------------ */
 
+
+
 .AboutDiv {
   background-color: #1a1a1a;
   height: auto;
@@ -228,6 +230,7 @@ h6 {
 .ProfilePic {
   width:150px;
 }
+
 
 /* ------------------------ PHOTOGRAPHY ------------------------ */
 
@@ -349,3 +352,47 @@ h6 {
   color:green;
 }
 
+/* ------------------------ RESPONSIVE EDITS ------------------------ */
+
+
+
+/* Large Screens */
+@media only screen and (max-width : 1199.98px) {
+  .ResumeTitle2 {
+    font-size: 93px;
+  }
+}
+
+/* Medium Screens */
+@media only screen and (max-width : 991.98px) {
+  .AboutMeTitle {
+    margin-bottom:10px;
+  }
+
+  .ProfilePicContainer {
+    margin-bottom: 45px;
+  }
+
+  .AboutDiv2InnerContainer {
+    padding:0px;
+  }
+
+  .ResumeTitle2 {
+    font-size: 70px;
+  }
+  
+  body {
+    background-position: center;
+  }
+  
+}
+
+/* Small Screens */
+@media only screen and (max-width : 767.98px) {
+  
+}
+
+/* X-Small Screens */
+@media only screen and (max-width : 575.98px) {
+  
+}

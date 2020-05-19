@@ -24,19 +24,19 @@ const aboutMe = (props) => {
                 <Container className="AboutDiv2">
                     <div className="AboutDiv2InnerContainer">
                         <Row>
-                            <Col sm={8}>
+                            <Col md={12} lg={8}>
                                 <div className="AboutMeTitle">
                                     <h1 className="ResumeTitle2">About Me</h1>
                                 </div>
                             </Col>
-                            <Col>
+                            <Col md={12} lg={4}>
                                 <div className="ProfilePicContainer">
                                     <Image className="ProfilePic" src={img1} />
                                 </div>
                             </Col>
                         </Row>
                         <Row>
-                            <Col sm={12}>
+                            <Col lg={12}>
                                 <div>
                                     <p>
                                         Hello, My name is Kenneth Serrano and I am currently a Computer Science student at Concordia University in Montreal.

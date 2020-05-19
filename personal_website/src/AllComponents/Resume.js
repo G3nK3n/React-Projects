@@ -28,21 +28,21 @@ const resumeComponent = (props) => {
                     <div>
                         <h4 className="Sub-Title">Education</h4>
                         <Row>
-                            <Col sm={4}>
+                            <Col sm md lg={4}>
                                 <h5>Concordia University</h5>
                                 <p className="DateStartEnd">2014 - Present</p>
                             </Col>
-                            <Col sm={8}>
+                            <Col sm md lg={8}>
                                 <h6>Bachelors of Computer Science</h6>
                                 <p> Currently pursuing my degree in Computer Science, option Web Services and Application</p>
                             </Col>
                         </Row>
                         <Row>
-                            <Col sm={4}>
+                            <Col sm md lg={4}>
                                 <h5>CEGEP Vanier</h5>
                                 <p className="DateStartEnd">2009 - 2013</p>
                             </Col>
-                            <Col sm={8}>
+                            <Col sm md lg={8}>
                                 <h6>DEC in Computer Science and Technology</h6>
                                 <p> Obtained my DEC in Computer Science. Most of the education was done with Java, but we had some courses that
                                     taught us basic C++ and Visual Basic. During my time in CEGEP, we had an E-Commerce course were we 
@@ -59,11 +59,11 @@ const resumeComponent = (props) => {
                     <div>
                         <h4 className="Sub-Title">Experience</h4>
                         <Row>
-                            <Col sm={4}>
+                            <Col sm md lg={4}>
                                 <h5>Ville de D.D.O.</h5>
                                 <p className="DateStartEnd">May 2019 - Present</p>
                             </Col>
-                            <Col sm={8}>
+                            <Col sm md lg={8}>
                                 <h6>Office Assistant</h6>
                                 <p>- Enter Data and file documents.  <br />
                                 - Handle customer service duties, both in person and over the phone.  <br />
@@ -75,11 +75,11 @@ const resumeComponent = (props) => {
                             </Col>
                         </Row>
                         <Row>
-                            <Col sm={4}>
+                            <Col sm md lg={4}>
                                 <h5>Tenaquip</h5>
                                 <p className="DateStartEnd">May - July 2018</p>
                             </Col>
-                            <Col sm={8}>
+                            <Col sm md lg={8}>
                                 <h6>Web Developer (Intern) </h6>
                                 <p>- Converted SCN dealer's websites onto new platform.  <br />
                                 - Styled dealer's websites using CSS, JavaScript and Bootstrap.  <br />
@@ -90,11 +90,11 @@ const resumeComponent = (props) => {
                             </Col>
                         </Row>
                         <Row>
-                            <Col sm={4}>
+                            <Col sm md lg={4}>
                                 <h5>Canada Post</h5>
                                 <p className="DateStartEnd">May - August 2017</p>
                             </Col>
-                            <Col sm={8}>
+                            <Col sm md lg={8}>
                                 <h6>Software Developer (Intern) </h6>
                                 <p>- Optimized database using MS Access to make it more efficient.  <br />
                                 - Redid back-end VBA application according to the new database.  <br />
@@ -106,11 +106,11 @@ const resumeComponent = (props) => {
                             </Col>
                         </Row>
                         <Row>
-                            <Col sm={4}>
+                            <Col sm md lg={4}>
                                 <h5>Excendia</h5>
                                 <p className="DateStartEnd">August - December 2012</p>
                             </Col>
-                            <Col sm={8}>
+                            <Col sm md lg={8}>
                                 <h6>Web Developer (Intern) </h6>
                                 <p>- Fixed bugs on the support page.  <br />
                                 - Created a Web Service application using PHP with SOAP protocol.  <br />
@@ -131,7 +131,7 @@ const resumeComponent = (props) => {
                         <h4 className="Sub-Title">Technologies</h4>
                         <div className="TechSection">
                             <Row>
-                                <Col sm={4}>
+                                <Col sm md lg={4}>
                                     <h5>Highly Proficient</h5>
                                     <ul>
                                         <li>Java</li>
@@ -144,7 +144,7 @@ const resumeComponent = (props) => {
                                         <li>MySQL</li>
                                     </ul>
                                 </Col>
-                                <Col sm={4}>
+                                <Col sm md lg={4}>
                                     <h5>Basic Knowledge</h5>
                                     <ul>
                                         <li>C++</li>
@@ -154,7 +154,7 @@ const resumeComponent = (props) => {
                                         <li>Python</li>
                                     </ul>
                                 </Col>
-                                <Col sm={4}>
+                                <Col sm md lg={4}>
                                     <h5>Environment</h5>
                                     <ul>
                                         <li>Eclipse</li>
