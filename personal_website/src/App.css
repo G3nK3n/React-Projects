@@ -1,5 +1,5 @@
 body{
-  background: url("./background-image2.jpg");
+  background-image: url("./background-image2.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -382,7 +382,9 @@ h6 {
   }
   
   body {
-    background-position: center;
+    background-image: url("background_image3.jpg");
+    
+    /* background-image: #111f22; */
   }
   
 }

@@ -15,10 +15,10 @@ const headerComponent = (props) => {
          <Container fluid>
          <Navbar className="wholeNav">
             <Row>
-                <Col sm md lg={2}>
+                <Col sm md={3} lg={2}>
                     <NavbarBrand onClick={props.clickHome}className="NavBarBrand" href="#"> KEN SERRANO </NavbarBrand>
                 </Col>
-                <Col sm md lg={10}>
+                <Col sm md={9} lg={10}>
                     <div className="NavBarItems">
                         <Navbar.Item>
                             <Navbar.Link onClick={props.clickResume} className="NavBarLink" href="#"> Resume </Navbar.Link>
