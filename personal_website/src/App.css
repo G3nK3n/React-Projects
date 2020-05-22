@@ -382,16 +382,44 @@ h6 {
   }
   
   body {
-    background-image: url("background_image3.jpg");
-    
-    /* background-image: #111f22; */
+    background-image: url("black_background.jpg");
+  }
+
+  .TechSection {
+    margin-left: 20px;
+  }
+
+  .ContactDiv.container {
+    padding-left: 20px;
   }
   
 }
 
 /* Small Screens */
 @media only screen and (max-width : 767.98px) {
-  
+  .environment {
+    margin-top: 24px;
+  }
+
+  .ResumeTitle2 {
+    font-size: 50px;
+  }
+
+  .PhotogTitle h1 {
+    font-size: 66px;
+  }
+
+  .PhotogDescription p {
+    font-size: 18px;
+  }
+
+  .Sub-Title {
+    text-align: center;
+  }
+
+  .ContactMe p {
+    text-align: center;
+  }
 }
 
 /* X-Small Screens */

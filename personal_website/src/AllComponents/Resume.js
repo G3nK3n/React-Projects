@@ -131,7 +131,7 @@ const resumeComponent = (props) => {
                         <h4 className="Sub-Title">Technologies</h4>
                         <div className="TechSection">
                             <Row>
-                                <Col sm md lg={4}>
+                                <Col sm={4} md lg={4}>
                                     <h5>Highly Proficient</h5>
                                     <ul>
                                         <li>Java</li>
@@ -144,7 +144,7 @@ const resumeComponent = (props) => {
                                         <li>MySQL</li>
                                     </ul>
                                 </Col>
-                                <Col sm md lg={4}>
+                                <Col sm={4} md lg={4}>
                                     <h5>Basic Knowledge</h5>
                                     <ul>
                                         <li>C++</li>
@@ -154,8 +154,8 @@ const resumeComponent = (props) => {
                                         <li>Python</li>
                                     </ul>
                                 </Col>
-                                <Col sm md lg={4}>
-                                    <h5>Environment</h5>
+                                <Col sm={4} md lg={4}>
+                                    <h5 className="environment">Environment</h5>
                                     <ul>
                                         <li>Eclipse</li>
                                         <li>Visual Studio(Code)</li>
