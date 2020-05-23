@@ -424,5 +424,11 @@ h6 {
 
 /* X-Small Screens */
 @media only screen and (max-width : 575.98px) {
+  .NavBarItems {
+    margin-top:10px;
+  }
   
+  a.NavBarBrand.navbar-brand {
+    color: blue;
+  }
 }
