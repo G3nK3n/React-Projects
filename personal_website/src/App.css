@@ -431,4 +431,16 @@ h6 {
   a.NavBarBrand.navbar-brand {
     color: blue;
   }
+
+  .NavBarBrand {
+    margin-left:0px;
+  }
+
+  h5 {
+    text-decoration: underline;
+  }
+
+  h6 {
+    font-style:italic;
+  }
 }
