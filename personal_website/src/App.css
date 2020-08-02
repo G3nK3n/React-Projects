@@ -44,9 +44,9 @@ body{
 }
 
 /* ------------------------ HOME ------------------------ */
-.homeTitle {
+/* .homeTitle {
   margin-top: 120px;
-}
+} */
 
 .HomeDiv {
   /* background-color: #1a1a1a; */
@@ -56,13 +56,10 @@ body{
   padding-bottom:40px;
 }
 
-.HomeDivInnerContainer {
-  padding:40px;
-}
-
 .HomeDiv.container {
   padding-left:40px;
   padding-right:40px;
+  margin-top: 305px;
 }
 
 .HomeDiv .AboutMe {
@@ -355,12 +352,19 @@ h6 {
 /* ------------------------ RESPONSIVE EDITS ------------------------ */
 
 
+@media (min-width: 1200px) {
+  .HomeDiv.container {
+    margin-top: 305px;
+  }
+}
+
 
 /* Large Screens */
 @media only screen and (max-width : 1199.98px) {
   .ResumeTitle2 {
     font-size: 93px;
   }
+
 }
 
 /* Medium Screens */
