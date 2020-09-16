@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Layout from './Components/Layout/Layout';
 
 class App extends Component {
   render() {
+    {/*Add Bootstrap link, test css modules*/}
     return(
       <div>
-        {/*Add Bootstrap link, test css modules*/}
-        <h1>Test</h1>
+        <Layout />
       </div>
     )
     
