@@ -4,7 +4,6 @@ import Header from '../Header/Header';
 
 const layout = props => (
     <div>
-        <h1>Hi</h1>
         <Header />
     </div>
 );
