@@ -1,0 +1,28 @@
+.Background {
+    background-color:#f6f9f8;
+    height: 740px;
+}
+
+.h1 {
+    font-family: Myriad Pro, sans-serif;
+    color:#A9A9A9;
+    font-size: 73px;
+    line-height: 73px;
+    margin: 0;
+    margin-top: 240px;
+}
+
+.Button {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.Col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.Row {
+    margin-left: 0;
+    margin-right: 0;
+}

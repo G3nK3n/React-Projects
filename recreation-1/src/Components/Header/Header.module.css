@@ -1,3 +1,14 @@
 .Header {
-    
+    /* padding-left: 250px;
+    padding-right: 250px; */
+    /* Do not need padding like above because Container deals with it instead */
+    border-style: solid;
+    background: #444a5b; 
 }
+
+.Navbar:nth-child(1) {
+    color: white;
+    font-family: 'forumregular';
+    font-size: 22px;
+}
+

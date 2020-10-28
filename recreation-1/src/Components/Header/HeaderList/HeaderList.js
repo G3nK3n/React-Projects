@@ -1,17 +1,41 @@
 import React from 'react';
+//import Container from 'react-bootstrap/Container';
+
+import classes from '../HeaderList/HeaderList.module.css';
 
 const links = props => {
     const linkName = ['Home', 'About', 'Collection', 'Blog', 'Store Locator'];
 
-    const linksItems = linkName.map((link) => 
-        <li>
-            <a href={link.toString()}>{link}</a>
-        </li>
-    );
+    const linksItems = linkName.reverse().map((link) => {
+        
+        return(
+            // link.toString() === "Home" ?
+            // <div key={link.toString()} className={classes.Links}>
+            //     <li className={classes.el}>
+            //         <a href={link.toString()}>{link}</a>
+            //     </li>
+            // </div>
+            // :
+            // <div key={link.toString()} className={classes.Links}>
+            //     <li>
+            //         <a href={link.toString()}>{link}</a>
+            //     </li>
+            // </div>
 
-    return (
-        <ul>{linksItems}</ul>
-    );
+            <li key={link} className={classes.Links}>
+                <a href={link.toString()}>{link}</a>
+            </li>
+            
+        )
+    });
+
+    return(
+        
+        <div className={classes.Links}>
+            <ul>{linksItems}</ul>
+        </div>
+        
+    )
 };
 
 export default links;
