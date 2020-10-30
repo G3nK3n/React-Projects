@@ -1,0 +1,13 @@
+.Images {
+    display: flex;
+    list-style: none;
+}
+
+.Images li img{
+    width: 218px;
+    height: 349px;
+}
+
+.Images li Button{
+    display: block;
+}

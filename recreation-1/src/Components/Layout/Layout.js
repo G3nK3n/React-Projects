@@ -8,12 +8,14 @@ import classes from '../Layout/Layout.module.css';
 
 import Header from '../Header/Header';
 import MainPage from '../MainBody/MainBody';
+import MainPage2 from '../MainBody2/MainBody2';
 
 const layout = props => (
     <div>
         <Container className={classes.Container} fluid>
             <Header />
             <MainPage />
+            <MainPage2 />
         </Container> 
     </div>
 );
