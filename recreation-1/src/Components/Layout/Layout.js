@@ -9,6 +9,7 @@ import classes from '../Layout/Layout.module.css';
 import Header from '../Header/Header';
 import MainPage from '../MainBody/MainBody';
 import MainPage2 from '../MainBody2/MainBody2';
+import Footer from '../Footer/Footer';
 
 const layout = props => (
     <div>
@@ -16,6 +17,7 @@ const layout = props => (
             <Header />
             <MainPage />
             <MainPage2 />
+            <Footer />
         </Container> 
     </div>
 );

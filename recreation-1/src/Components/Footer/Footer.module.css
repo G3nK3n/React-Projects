@@ -1,0 +1,32 @@
+.Leftlinks {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.Rightlinks {
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+.Rightlinks ul{
+    float: right;
+    display: flex;
+}
+
+.Rightlinks li {
+    list-style: none;
+    margin: 0 10px 0 0;
+}
+
+.Links a, .Links p{
+    color: #929191;
+    font-family: 'forumregular';
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Links {
+    margin-top: 30px;
+    border-top: 1px solid #dedede;
+}

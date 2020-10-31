@@ -1,13 +1,26 @@
 .Images {
     display: flex;
     list-style: none;
+    margin: 22px 0 0;
+    
+}
+
+.Images li {
+    margin: 0 0 0 21px;
 }
 
 .Images li img{
-    width: 218px;
+    width: 238px;
     height: 349px;
 }
 
 .Images li Button{
     display: block;
+    width: 238px;
+    color: #d5d5d5;
+    font-family: 'forumregular';
+    font-size: 16px;
+    height: 54px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
