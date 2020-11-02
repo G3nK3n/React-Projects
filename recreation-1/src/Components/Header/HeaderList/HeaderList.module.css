@@ -1,6 +1,6 @@
 .Links {
     /* border-style: dotted; */
-    float: right;
+    float: right; 
 }
 
 /* .Links dl, ol, ul {
@@ -22,6 +22,11 @@
     text-transform: uppercase;
 }
 
+.Links li a:hover {
+    color: #e6e6e6;
+}
+
+
 .Links li:before {
     content: '\2022';
     margin-right: 0.5em;
@@ -29,6 +34,41 @@
 }
 
 .Links li:nth-child(5):before {
+    content: none;
+}
+
+
+.HiddenLink {
+    position: absolute;
+    top: 30px;
+    right: 286px;
+    z-index: 1000;
+    display: none;
+}
+
+/* This makes the HiddenLink appear when it hovers on the Collection link. The ">" sign means that the left side is the parent, while the right side is the child div. */
+.Links:hover > .HiddenLink {
+   display: inline;
+}
+
+.HiddenLink ul li a {
+    color: #464c5d;
+    margin:0;
+}
+
+.HiddenLink ul li a:hover {
+    color: white;
+}
+
+.HiddenLink li {
+    background-color: #ddd;
+    border-bottom: 1px solid #fefefe;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #f5f5f5;
+    border-top: 1px solid #d4d4d4;
+}
+
+.HiddenLink li:nth-child(1n+1):before {
     content: none;
 }
 

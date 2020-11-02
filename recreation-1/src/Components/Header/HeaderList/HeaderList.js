@@ -21,10 +21,30 @@ const links = props => {
             //         <a href={link.toString()}>{link}</a>
             //     </li>
             // </div>
-
+            
+            link.toString() === "Collection" ?
+            <li key={link} className={classes.Links}>
+                <a href={link.toString()}>{link}</a>
+                <div className={classes.HiddenLink}>
+                    <ul>
+                        <li>
+                            <a href="#woman">Woman</a>
+                        </li> 
+                        <li>
+                            <a href="#men">Men</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            :
             <li key={link} className={classes.Links}>
                 <a href={link.toString()}>{link}</a>
             </li>
+
+            // Keep thisjust in case it does not work out
+            // <li key={link} className={classes.Links}>
+            //     <a href={link.toString()}>{link}</a>
+            // </li>
             
         )
     });

@@ -23,4 +23,10 @@
     height: 54px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.Images li a img:hover {
+    opacity: 0.9;
 }
