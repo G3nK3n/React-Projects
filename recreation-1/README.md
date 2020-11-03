@@ -2,6 +2,8 @@ This project is to try and recreate this website using ReactJS:
 
 Link: https://freewebsitetemplates.com/preview/highfashion/index.html
 
+Although I did add my some of my own pictures just to change it up a bit.
+
 ----------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
