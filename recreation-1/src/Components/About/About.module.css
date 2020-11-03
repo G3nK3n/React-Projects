@@ -1,0 +1,25 @@
+.About {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.About img{
+    width: 960px;
+    height: 290px;
+    margin-top: 40px;
+}
+
+.About h2 {
+    color: #444a5b;
+    font-family: 'abelregular';
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 24px 0 0;
+    text-transform: uppercase;
+}
+
+.ImageContainer {
+    text-align: center;
+}
+

@@ -1,25 +1,68 @@
-import React from 'react';
+import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
 
+import Container from 'react-bootstrap/Container';
 import classes from '../Layout/Layout.module.css';
 
 import Header from '../Header/Header';
-import MainPage from '../MainBody/MainBody';
-import MainPage2 from '../MainBody2/MainBody2';
 import Footer from '../Footer/Footer';
 
-const layout = props => (
-    <div>
-        <Container className={classes.Container} fluid>
-            <Header />
-            <MainPage />
-            <MainPage2 />
-            <Footer />
-        </Container> 
-    </div>
-);
+import MainPage from '../MainBody/MainBody';
+import MainPage2 from '../MainBody2/MainBody2';
 
-export default layout;
+import About from '../About/About';
+
+
+class Layout extends Component {
+    
+    state = {
+        showHome: false,
+        showAbout: true
+    }
+
+    showHomePage = () => {
+        const selectedState = this.state.showHome
+        this.setState({showHome:true, showAbout:false})
+    }
+
+    showAboutPage = () => {
+        const selectedState = this.state.showAbout
+        this.setState({showAbout:true, showHome:false})
+    }
+
+    render() {
+
+        let showPage = null;
+
+        if(this.state.showHome) {
+            showPage = (
+                <div>
+                    <MainPage />
+                    <MainPage2 />
+                </div>
+            )
+        }
+        else if(this.state.showAbout) {
+            showPage = (
+                <div>
+                    <About />
+                </div>
+            )
+        }
+
+        
+        return (
+            <div>
+                <Container className={classes.Container} fluid>
+                    <Header clickHomePage={this.showHomePage} clickAboutPage={this.showAboutPage}/>
+                        {showPage}
+                    <Footer />
+                </Container> 
+            </div>
+        )
+    }
+
+    
+};
+
+export default Layout;

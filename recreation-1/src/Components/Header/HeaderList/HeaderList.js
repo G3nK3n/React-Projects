@@ -22,6 +22,17 @@ const links = props => {
             //     </li>
             // </div>
             
+
+            link.toString() === "Home" ? 
+            <li key={link} className={classes.Links}>
+                <a onClick={props.clickHome} href="javascript:void(0)">{link}</a>
+            </li>
+            :
+            link.toString() === "About" ?
+            <li key={link} className={classes.Links}>
+                <a onClick={props.clickAbout} href="javascript:void(0)">{link}</a>
+            </li>
+            :
             link.toString() === "Collection" ?
             <li key={link} className={classes.Links}>
                 <a href={link.toString()}>{link}</a>
