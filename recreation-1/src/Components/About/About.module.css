@@ -4,7 +4,7 @@
 }
 
 .About img{
-    width: 960px;
+    width: 923px;
     height: 290px;
     margin-top: 40px;
 }
@@ -17,9 +17,46 @@
     letter-spacing: 2px;
     margin: 24px 0 0;
     text-transform: uppercase;
+    margin-left: 57px;
 }
 
 .ImageContainer {
     text-align: center;
+}
+
+.SmallImages img {
+    width: 218px;
+    height: 141px;
+}
+
+.SmallImages h3 {
+    color: #8a8989;
+    font-family: 'abelregular';
+    font-size: 14px;
+    line-height: 24px;
+    margin: 28px 0 0;
+    text-transform: uppercase;
+}
+
+.SmallImages p {
+    color: #8a8989;
+    font-family: 'abelregular';
+    font-size: 14px;
+    line-height: 24px;
+    margin: 24px 0 0;
+    text-align: justify;
+    letter-spacing: 0.001em;
+    width: 214px;
+
+}
+
+.SmallImages {
+    display: flex;
+    list-style: none;
+}
+
+.SmallImages li {
+    width: 218px;
+    margin-left: 17px;
 }
 
