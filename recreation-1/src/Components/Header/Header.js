@@ -18,7 +18,7 @@ const header = props => (
                     <Navbar.Brand className={classes.Navbar} href="#home">KENNETH SERRANO</Navbar.Brand>
                 </Col>
                 <Col md={9}>
-                    <Links clickHome={props.clickHomePage} clickAbout={props.clickAboutPage}/>
+                    <Links clickHome={props.clickHomePage} clickAbout={props.clickAboutPage} clickStore={props.clickStoreLocator}/>
                 </Col>
             </Navbar>
         </Container>

@@ -11,23 +11,30 @@ import MainPage from '../MainBody/MainBody';
 import MainPage2 from '../MainBody2/MainBody2';
 
 import About from '../About/About';
+import Store from '../StoreLocator/StoreLocator';
 
 
 class Layout extends Component {
     
     state = {
         showHome: false,
-        showAbout: true
+        showAbout: false,
+        showStore: true
     }
 
     showHomePage = () => {
         const selectedState = this.state.showHome
-        this.setState({showHome:true, showAbout:false})
+        this.setState({showHome:true, showAbout:false, showStore:false})
     }
 
     showAboutPage = () => {
         const selectedState = this.state.showAbout
-        this.setState({showAbout:true, showHome:false})
+        this.setState({showAbout:true, showHome:false, showStore:false})
+    }
+
+    showStorePage = () => {
+        const selectedState = this.state.showStore
+        this.setState({showHome:false, showAbout:false, showStore:true})
     }
 
     render() {
@@ -46,6 +53,13 @@ class Layout extends Component {
             showPage = (
                 <div>
                     <About />
+                </div>
+            )
+        }
+        else if(this.state.showStore) {
+            showPage = (
+                <div>
+                    <Store />
                 </div>
             )
         }

@@ -1,0 +1,78 @@
+.Row {
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 50px;
+}
+
+
+
+.FormDiv h3 {
+    color: #444a5b;
+    font-family: 'forumregular';
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    margin: 0 0 13px;
+    text-transform: uppercase;
+}
+
+.FormDiv Form {
+    width: 238px;
+    height: 249px;
+    background-color: #E3E3E3;
+    padding: 22px 0 0 26px;
+    border-radius: 25px;
+}
+
+.FormControl {
+    width: 186px;
+}
+
+.FormDiv label {
+    color: #636363;
+    font-family: 'abelregular';
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.FormDiv Button {
+    border:0;
+    cursor: pointer;
+    font-family: 'forumregular';
+    font-size: 13px;
+    height: 34px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 186px;
+    border-radius: 25px;
+}
+
+.ListStore h4 {
+    color: #404656;
+    font-family: 'forumregular';
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.ListStore p {
+    color: #8a8989;
+    font-family: 'abelregular';
+    font-size: 14px;
+    line-height: 24px;
+    margin: 24px 0 0;
+    letter-spacing: 0.001em;
+}
+
+.ListStore ul {
+    list-style: none;
+    padding: 38px 0 0;
+}
+
+.ListStore li {
+   
+}
+
+.ListStore div {
+    padding-bottom: 60px;
+}
