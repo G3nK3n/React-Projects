@@ -33,7 +33,7 @@ const links = props => {
                 <a onClick={props.clickAbout} href="javascript:void(0)">{link}</a>
             </li>
             :
-            link.toString() === "About" ?
+            link.toString() === "Store Locator" ?
             <li key={link} className={classes.Links}>
                 <a onClick={props.clickStore} href="javascript:void(0)">{link}</a>
             </li>

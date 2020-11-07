@@ -17,9 +17,9 @@ import Store from '../StoreLocator/StoreLocator';
 class Layout extends Component {
     
     state = {
-        showHome: false,
+        showHome: true,
         showAbout: false,
-        showStore: true
+        showStore: false
     }
 
     showHomePage = () => {
@@ -68,7 +68,7 @@ class Layout extends Component {
         return (
             <div>
                 <Container className={classes.Container} fluid>
-                    <Header clickHomePage={this.showHomePage} clickAboutPage={this.showAboutPage}/>
+                    <Header clickHomePage={this.showHomePage} clickAboutPage={this.showAboutPage} clickStoreLocator={this.showStorePage}/>
                         {showPage}
                     <Footer />
                 </Container> 

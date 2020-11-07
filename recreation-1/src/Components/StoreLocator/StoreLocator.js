@@ -27,7 +27,7 @@ const store = () => (
                         </Form>
                     </div>
                 </Col>
-                <Col>
+                <Col md={9}>
                     <div className={classes.ListStore}>
                         <ul>
                             <li>
@@ -41,9 +41,12 @@ const store = () => (
                                     </p>
                                     <br />
                                     <a href="javascript:void(0)" >View Map</a>
-                                </div>
-                                <div>
-                                    <h4>Hi</h4>
+
+                                    <br /> <br />
+                                    -------------------------------
+                                    <br /> <br />
+                                    
+                                    <h4>Couture Runway Mall</h4>
                                     <p>Collections: Mens/Womans</p>
                                     <p>Address: This is just a placeholder</p>
                                     <p>
@@ -65,8 +68,38 @@ const store = () => (
                                     </p>
                                     <br />
                                     <a href="javascript:void(0)" >View Map</a>
+
+                                    <br /> <br />
+                                    -------------------------------
+                                    <br /> <br />
+                                
+                                    <h4>High fashion Store</h4>
+                                    <p>Collections: Mens/Womans</p>
+                                    <p>Address: This is just a placeholder</p>
+                                    <p>
+                                        Phone: 904-422-5881 <br />
+                                        Hours: 10:00-21:00
+                                    </p>
+                                    <br />
+                                    <a href="javascript:void(0)" >View Map</a>
                                 </div>
+                            </li>
+                            <li>
                                 <div>
+                                    <h4>High fashion Store</h4>
+                                    <p>Collections: Mens/Womans</p>
+                                    <p>Address: This is just a placeholder</p>
+                                    <p>
+                                        Phone: 904-422-5881 <br />
+                                        Hours: 10:00-21:00
+                                    </p>
+                                    <br />
+                                    <a href="javascript:void(0)" >View Map</a>
+
+                                    <br /> <br />
+                                    -------------------------------
+                                    <br /> <br />
+                                
                                     <h4>High fashion Store</h4>
                                     <p>Collections: Mens/Womans</p>
                                     <p>Address: This is just a placeholder</p>
