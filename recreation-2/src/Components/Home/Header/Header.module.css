@@ -1,5 +1,7 @@
 .Header {
     background-color: grey;
-    padding-left:30px;
-    padding-right: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+    height: 68px;
+    margin-top: -8px;
 }
