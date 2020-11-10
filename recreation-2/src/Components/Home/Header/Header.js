@@ -20,9 +20,9 @@ const header = () => (
                         <a href="#" ><img src={logo} /></a>   
                     </Navbar>
                 </Col>
-                <Col md={6}>
+                <Col md={8}>
                     <div>
-                        <Nav>
+                        <Nav className={classes.Links}>
                             <Nav.Link>Home</Nav.Link>
                             <Nav.Link>About</Nav.Link>
                             <Nav.Link>Projects</Nav.Link>
