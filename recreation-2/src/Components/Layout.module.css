@@ -1,0 +1,6 @@
+.HomeBackground {
+    background-image: url("../bg-home.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow-y: scroll;
+}

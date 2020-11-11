@@ -1,0 +1,51 @@
+.BodyDiv {
+    min-height: 693px;
+}
+
+.MainBody{
+    padding-left: 91px;
+    padding-right: 190px;
+}
+
+.MainBody h1, .MainBody h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.MainBody h1 {
+    font-family: 'audiowide-regular-webfront';
+    font-size: 63px;
+    font-weight: bold;
+}
+
+.MainBody h2 {
+    font-family: 'Arial';
+    font-size: 43px;
+    line-height: 63px;
+    margin: 0 0 30px;
+}
+
+.MainBody Button {
+    color: #a3a3a3;
+    font-family: 'Arial';
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 32px 10px 32px;
+    border: none;
+}
+
+.MainBody Button:hover {
+    background-color: #ab000b;
+}
+
+.MainBody div {
+    float: right;
+    margin: 187px 0 27px;
+    text-align: center;
+}
+
+.MainBody img {
+    position: absolute;
+    margin-top: 45px;
+}
+

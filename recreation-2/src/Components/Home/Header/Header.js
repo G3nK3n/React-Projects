@@ -12,7 +12,7 @@ import logo from '../../../logo.png';
 
 
 const header = () => (
-    <div>
+    <div className={classes.DivHeader}>
         <Container className={classes.Header}>
             <Row>
                 <Col md={4}>
