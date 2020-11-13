@@ -1,0 +1,26 @@
+.Featured {
+    margin-top:63px;
+    float: left;
+}
+
+.Featured img{
+    position: static;
+}
+
+.Featured ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+
+.InnerDiv {
+    position: absolute;
+    width: 939px;
+    height: 35px;
+    /* background-image: url("../../../../bg-transparent1.png"); */
+}
+
+.InnerDiv h3 {
+    text-align: center;
+}
+

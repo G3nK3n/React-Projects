@@ -1,10 +1,10 @@
 .BodyDiv {
-    min-height: 693px;
+    min-height: 700px;
 }
 
 .MainBody{
     padding-left: 91px;
-    padding-right: 190px;
+    padding-right: 109px;
 }
 
 .MainBody h1, .MainBody h2 {
@@ -38,7 +38,7 @@
     background-color: #ab000b;
 }
 
-.MainBody div {
+.thisDiv {
     float: right;
     margin: 187px 0 27px;
     text-align: center;
