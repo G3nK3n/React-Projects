@@ -3,8 +3,7 @@ import Img1 from '../../../../project-image1.jpg';
 import Img2 from '../../../../project-image2.jpg';
 import Img3 from '../../../../project-image3.jpg';
 import Img4 from '../../../../project-image4.jpg';
-import TransparentBack from '../../../../bg-transparent1.png';
-import Row from 'react-bootstrap/Row';
+
 
 
 import classes from '../FeaturedProject/FeaturedProject.module.css';
