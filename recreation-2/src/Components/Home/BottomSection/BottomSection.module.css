@@ -1,0 +1,45 @@
+.RightSide {
+    float: left;
+}
+
+.RightSide Button {
+    float: right;
+    background-color: #3c0f38;
+    border: none;
+    font-family: Arial;
+    font-size: 14px;
+    height: 31px;
+    text-transform: uppercase;
+    width: 120px;
+    margin-top:3px;
+}
+
+.RightSide Button:hover {
+    background-color: #620031;
+}
+
+.LatestBlogList {
+    list-style: none;
+    padding: 0;
+}
+
+.LatestBlogList h1{
+    color: #A3A3A3;
+    font-family: "audiowide-regular-webfront";
+    font-size: 23px;
+    /* line-height: 12px; */
+    text-transform: uppercase;
+}
+
+.LatestBlogList p {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin:0; 
+}
+
+.BottomSection {
+    padding: 0 265px;
+    background-color: black;
+}

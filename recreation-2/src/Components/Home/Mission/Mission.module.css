@@ -21,4 +21,6 @@
     background-color: #630031;
     height: 168px;
     overflow: hidden; /* Added this so that whole div wont go down */
+    width: 100%;
+    margin-top: 8px;
 }
