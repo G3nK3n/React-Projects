@@ -1,5 +1,6 @@
 .RightSide {
     float: left;
+    width: 295px;
 }
 
 .RightSide Button {
@@ -36,10 +37,32 @@
     font-family: Arial;
     font-size: 14px;
     text-transform: uppercase;
-    margin:0; 
+    margin:0;
+}
+
+.TopBlog {
+    padding-bottom: 38px;
+    border-bottom: 1px solid #A3A3A3;
+    width: 402px;
+}
+
+.BottomBlog {
+    padding-top: 39px;
+    width: 402px;
 }
 
 .BottomSection {
-    padding: 0 265px;
+    padding:0 175px 60px 265px;
     background-color: black;
 }
+
+.Title {
+    color: #ffffff;
+    font-family: 'Audiowide', cursive;
+    font-size: 32px;
+    margin: 20px 0 44px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+

@@ -17,23 +17,37 @@ const bottomsection = () => (
             <Row>
                 <Col>
                     <div>
-                        <h1>Featured Video</h1>
+                        <h1 className={classes.Title}>Featured Video</h1>
                         <img src={Img1} />
                     </div>
                 </Col>
                 <Col>
                     <div>
-                        <h1>Latest Blog</h1>
+                        <h1 className={classes.Title}>Latest Blog</h1>
                         <ul className={classes.LatestBlogList}>
-                            <li>
+                            <li className={classes.TopBlog}>
                                 <Row>
                                     <Col md={3}>
                                         <img src={Img2} />
                                     </Col>
-                                    <Col>
+                                    <Col md={7}>
                                         <div className={classes.RightSide}>
                                             <h1>Finding Planet x-123</h1>
                                             <p>February 6, 2023</p>
+                                            <Button>Read More</Button>
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </li>
+                            <li className={classes.BottomBlog}>
+                                <Row>
+                                    <Col md={3}>
+                                        <img src={Img3} />
+                                    </Col>
+                                    <Col md={9}>
+                                        <div className={classes.RightSide}>
+                                            <h1>New Satellite Dish</h1>
+                                            <p>February 3, 2023</p>
                                             <Button>Read More</Button>
                                         </div>
                                     </Col>
