@@ -16,7 +16,7 @@ const bottomsection = () => (
         <Container>
             <Row>
                 <Col>
-                    <div>
+                    <div className={classes.Featured}>
                         <h1 className={classes.Title}>Featured Video</h1>
                         <img src={Img1} />
                     </div>

@@ -65,4 +65,20 @@
     text-transform: uppercase;
 }
 
+.Featured {
+    margin-left: 27px;
+}
 
+
+/* THIS IS THE SIZE OF MY MONITOR!!! */
+@media (max-width: 1536px) {
+    .Featured {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1378px) and (max-width: 1536px) {
+    .BottomSection {
+        padding:0 110px 60px 185px;
+    }
+}
