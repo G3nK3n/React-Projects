@@ -1,7 +1,39 @@
 .RowMargin {
     margin: 0;
+    background-color: #a3a3a3;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
-.SocialMedia {
-    margin: 0 auto;
+.Text {
+    text-align: right;
 }
+
+.Text h1 {
+    color: #ffffff;
+    font-family: 'audiowide-regular-webfront';
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.SocialMedia ul {
+    display: flex;
+    list-style: none;
+}
+
+.SocialMedia li {
+    padding: 0px 15px;
+    color: white;
+}
+
+.Footer p {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.FooterRow {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
