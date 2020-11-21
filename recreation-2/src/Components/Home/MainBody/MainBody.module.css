@@ -40,12 +40,19 @@
 
 .thisDiv {
     float: right;
-    margin: 187px 0 27px;
+    /* margin: 187px 0 27px; */
+    margin: 187px -65px 27px;
     text-align: center;
 }
 
 .MainBody img {
     position: absolute;
     margin-top: 45px;
+}
+
+.SatelliteImage {
+    position: absolute;
+    margin-top: 45px;
+    margin-right: 25px;
 }
 

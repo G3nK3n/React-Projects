@@ -82,3 +82,13 @@
         padding:0 110px 60px 185px;
     }
 }
+
+@media only screen and (max-width : 1199.98px) {
+    .BottomSection {
+        padding: 0 0px 60px 0px;
+    }
+
+    .BottomContainer {
+        margin-left: 90px;
+    }
+}

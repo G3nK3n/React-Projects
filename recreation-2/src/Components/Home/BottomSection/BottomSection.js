@@ -13,7 +13,7 @@ import classes from '../BottomSection/BottomSection.module.css';
 
 const bottomsection = () => (
     <div className={classes.BottomSection}>
-        <Container>
+        <Container className={classes.BottomContainer}>
             <Row>
                 <Col>
                     <div className={classes.Featured}>

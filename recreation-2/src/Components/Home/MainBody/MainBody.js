@@ -15,7 +15,7 @@ const mainbody = () => (
                 <h2>Spacecraft</h2>
                 <Button variant="dark">Read More</Button>
             </div>
-            <img src={Img1} />
+            <img className={classes.SatelliteImage} src={Img1} />
             <Featured />
         </Container>
     </div>
