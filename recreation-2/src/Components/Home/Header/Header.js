@@ -11,7 +11,7 @@ import Nav from 'react-bootstrap/Nav';
 import logo from '../../../logo.png';
 
 
-const header = () => (
+const header = (props) => (
     <div className={classes.DivHeader}>
         <Container className={classes.Header}>
             <Row>
@@ -23,7 +23,7 @@ const header = () => (
                 <Col md={8}>
                     <div>
                         <Nav className={classes.Links}>
-                            <Nav.Link>Home</Nav.Link>
+                            <Nav.Link onClick={props.clickHomePage}>Home</Nav.Link>
                             <Nav.Link>About</Nav.Link>
                             <Nav.Link>Projects</Nav.Link>
                             <Nav.Link>Blog</Nav.Link>
