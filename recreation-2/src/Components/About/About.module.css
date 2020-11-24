@@ -1,3 +1,66 @@
+.AboutDivRow {
+    background: url("../../bg-about.jpg") no-repeat center;
+   background-color: black;
+}
+
 .AboutDiv {
     text-align: center;
+    padding: 0px 500px;
 }
+
+.AboutDiv h1 {
+    margin: 40px 0px;
+    color: white;
+    font-family: audiowide-regular-webfront;
+    font-size: 36px;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.AboutDiv h2 {
+    color: white;
+    font-family: audiowide-regular-webfront;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.AboutDiv p {
+    margin-bottom: 100px;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serifl;
+    font-size: 18px;
+}
+
+
+
+@media (max-width: 1566px) {
+    .AboutDiv {
+        padding: 0px 320px;
+    }
+}
+
+@media (min-width: 1567px) and (max-width: 1726px) {
+    .AboutDiv {
+        padding: 0px 420px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+    .AboutDiv {
+        padding: 0px 170px;
+    }
+}
+
+@media only screen and (max-width : 1199.98px) {
+    .AboutDiv {
+        padding: 0px 130px;
+    }
+}
+
+@media only screen and (max-width : 991.98px) {
+
+}
+
+{/* Try and redo responsivness */}

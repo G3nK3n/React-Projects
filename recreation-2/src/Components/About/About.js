@@ -2,11 +2,12 @@ import React from 'react';
 import classes from '../About/About.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 
 const aboutPage = () => (
-    <div>
+    <div className={classes.AboutDivRow}>
         <Row>
-            <Col xl={12}>
+            <Col>
                 <div className={classes.AboutDiv}>
                     <h1>About</h1>
                     <h2>We have free templates for everyone</h2>
