@@ -15,12 +15,12 @@ const header = (props) => (
     <div className={classes.DivHeader}>
         <Container className={classes.Header}>
             <Row>
-                <Col md={4}>
+                <Col lg={4}>
                     <Navbar>
                         <a href="#" ><img src={logo} /></a>   
                     </Navbar>
                 </Col>
-                <Col md={8}>
+                <Col className="d-none d-lg-block d-xl-block" lg={8}>
                     <div>
                         <Nav className={classes.Links}>
                             <Nav.Link onClick={props.clickHomePage}>Home</Nav.Link>

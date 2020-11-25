@@ -5,7 +5,9 @@
 
 .AboutDiv {
     text-align: center;
-    padding: 0px 500px;
+    /* padding: 0px 500px; */
+    padding-left:10%;
+    padding-right: 10%;
 }
 
 .AboutDiv h1 {
@@ -34,8 +36,23 @@
 }
 
 
+@media (max-width: 1200px) {
+    .AboutDiv {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
 
-@media (max-width: 1566px) {
+@media (max-width: 992px) {
+    .AboutDiv {
+        padding-left:0;
+        padding-right:0;
+    }
+} 
+
+
+
+/* @media (max-width: 1566px) {
     .AboutDiv {
         padding: 0px 320px;
     }
@@ -61,6 +78,4 @@
 
 @media only screen and (max-width : 991.98px) {
 
-}
-
-{/* Try and redo responsivness */}
+} */

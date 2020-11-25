@@ -33,3 +33,10 @@
         padding-left: 0px;
     }  
 }
+
+@media (max-width: 992px) {
+    .Header {
+        margin-left:0;
+        margin-right:0;
+    }
+}
