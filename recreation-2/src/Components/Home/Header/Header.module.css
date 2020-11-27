@@ -35,8 +35,23 @@
 }
 
 @media (max-width: 992px) {
-    .Header {
+    .Test button{
+        margin-top: 10px;
+    }
+
+    .Links {
         margin-left:0;
-        margin-right:0;
+        padding: 0;
+    }
+
+    .Links a {
+        border: 1px solid #f1f2f2;
+        
+    }
+
+    .ResponsiveLinks {
+        z-index: 1;
+        background: rgba(98, 0, 49, 0.91);
     }
 }
+
