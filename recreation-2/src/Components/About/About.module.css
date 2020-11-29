@@ -1,6 +1,7 @@
 .AboutDivRow {
     background: url("../../bg-about.jpg") no-repeat center;
    background-color: black;
+   height: 460px;
 }
 
 .AboutDiv {
@@ -49,6 +50,12 @@
         padding-right:0;
     }
 } 
+
+@media only screen and (max-width : 767.98px) {
+    .AboutDiv h1{
+        margin: 25px 0;
+    }
+}
 
 
 

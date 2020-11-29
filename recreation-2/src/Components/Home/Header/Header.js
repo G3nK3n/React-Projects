@@ -16,27 +16,12 @@ const header = (props) => (
     <div className={classes.DivHeader}>
         <Container className={classes.Header}>
             <Row>
-                <Col md={6} lg={4}>
+                <Col sm={6} md={6} lg={4}>
                     <Navbar>
                         <a href="#" ><img src={logo} /></a>   
                     </Navbar>
                 </Col>
                 <Col md={5} lg={8} className="d-none d-lg-block d-xl-block" >
-                    {/* This is for collapse header
-                    <div className="d-none d-md-block d-lg-none">
-                        <Navbar.Toggle aria-controls="responsive-navbar-nav" /> 
-                        <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className={classes.Links}>
-                            <Nav.Link onClick={props.clickHomePage}>Home</Nav.Link>
-                            <Nav.Link>About</Nav.Link>
-                            <Nav.Link>Projects</Nav.Link>
-                            <Nav.Link>Blog</Nav.Link>
-                            <Nav.Link>Contact</Nav.Link>
-                        </Nav>
-                        </Navbar.Collapse>
-                    </div> */}
-                    {/* This is for regular header */}
-                    {/* FIGURE OUT HOW TO MAKE COLLAPSE BUTTON GO RIGHT */}
                     <div>
                         <Nav className={classes.Links}>
                             <Nav.Link onClick={props.clickHomePage}>Home</Nav.Link>
@@ -47,7 +32,8 @@ const header = (props) => (
                         </Nav>
                     </div>
                 </Col>
-                <Col md={6} className="d-none d-md-block d-lg-none">
+                {/* Responsive Links */}
+                <Col sm={6} md={6} className="d-none d-sm-block d-md-block d-lg-none">
                     <Navbar expand="lg" variant="dark" className={classes.Test}>
                         <Navbar.Toggle className="ml-auto" aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse className={classes.ResponsiveLinks} id="responsive-navbar-nav">

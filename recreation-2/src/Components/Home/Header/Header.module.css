@@ -34,19 +34,19 @@
     }  
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .Test button{
         margin-top: 10px;
     }
 
     .Links {
         margin-left:0;
-        padding: 0;
     }
 
     .Links a {
         border: 1px solid #f1f2f2;
-        
+        padding-left: 20px !important;
+        color: #eeeced !important;
     }
 
     .ResponsiveLinks {
