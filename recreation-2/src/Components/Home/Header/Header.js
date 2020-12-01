@@ -16,7 +16,7 @@ const header = (props) => (
     <div className={classes.DivHeader}>
         <Container className={classes.Header}>
             <Row>
-                <Col sm={6} md={6} lg={4}>
+                <Col xs={6} sm={6} md={6} lg={4}>
                     <Navbar>
                         <a href="#" ><img src={logo} /></a>   
                     </Navbar>
@@ -33,7 +33,7 @@ const header = (props) => (
                     </div>
                 </Col>
                 {/* Responsive Links */}
-                <Col sm={6} md={6} className="d-none d-sm-block d-md-block d-lg-none">
+                <Col xs={6} sm={6} md={6} className="d-block d-sm-block d-md-block d-lg-none">
                     <Navbar expand="lg" variant="dark" className={classes.Test}>
                         <Navbar.Toggle className="ml-auto" aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse className={classes.ResponsiveLinks} id="responsive-navbar-nav">

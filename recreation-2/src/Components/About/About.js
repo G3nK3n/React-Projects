@@ -20,6 +20,7 @@ const aboutPage = () => (
                     </div>
                 </Col>
             </Row>
+            {/* Find the right props to store background of About row */}
         </Container>
     </div>
 );
