@@ -1,0 +1,46 @@
+.About2FirstRow {
+    background: #620031;
+    padding-left: 24%;
+    padding-right: 25%;
+    padding-top: 30px;
+    height: 253px;
+}
+
+.About2FirstRow img {
+    float: right;
+}
+
+.About2FirstRow h2 {
+    color: #A3A3A3;
+    font-family: 'audiowide-regular-webfront';
+    font-size: 23px;
+    margin: 10px 0 20px;
+    text-transform: uppercase;
+}
+
+.About2FirstRow p {
+    color: #ffffff;
+    font-family: 'Arial';
+    font-size: 15px;
+}
+
+@media (max-width: 1600px) {
+    .About2FirstRow {
+        padding-left: 19%;
+        padding-right: 21%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .About2FirstRow {
+        padding-left: 15%;
+        padding-right: 16%
+    }
+}
+
+@media (max-width: 1200px) {
+    .About2FirstRow {
+        padding-left: 8.5%;
+        padding-right: 9.5%;
+    }
+}
