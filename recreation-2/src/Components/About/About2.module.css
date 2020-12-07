@@ -3,7 +3,7 @@
     padding-left: 24%;
     padding-right: 25%;
     padding-top: 30px;
-    height: 253px;
+    min-height: 253px;
 }
 
 .About2FirstRow img {
@@ -24,6 +24,13 @@
     font-size: 15px;
 }
 
+/* SECOND ROW */
+.About2SecondRow {
+    
+}
+
+
+{/* XX-LARGE SCREENS */}
 @media (max-width: 1600px) {
     .About2FirstRow {
         padding-left: 19%;
@@ -31,6 +38,8 @@
     }
 }
 
+
+{/* X-LARGE SCREENS */}
 @media (max-width: 1440px) {
     .About2FirstRow {
         padding-left: 15%;
@@ -38,9 +47,25 @@
     }
 }
 
+{/* LARGER SCREENS */}
 @media (max-width: 1200px) {
     .About2FirstRow {
         padding-left: 8.5%;
         padding-right: 9.5%;
+    }
+}
+
+{/* MEDIUM SCREENS */}
+@media (max-width: 992px) {
+    .About2FirstRow {
+        text-align: center;
+    }
+    
+    .About2FirstRow img {
+        float: none;
+    }
+
+    .About2FirstRowResp {
+        text-align: center;
     }
 }
