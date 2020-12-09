@@ -47,16 +47,22 @@ const about2 = () => (
                 </Row>
             </Container>
         </div>
-        <div>
+        <div className={classes.About2SecondRow}>
             <Container>
                 <Row>
-                    <Col>
-                        <div>
+                    <Col lg={7}>
+                        <div className={classes.About2SecondRowImg}>
                             <img src={Img2} />
                         </div>                   
                     </Col>
-                    <Col>
-                    
+                    <Col lg={5}>
+                        <div className={classes.About2SecondRowText}>
+                            <h2>Be part of the community</h2>
+                            <p>
+                                If you’re experiencing issues and concerns about this website template, 
+                                join the discussion on our forum and meet other people in the community who share the same interests with you.
+                            </p>
+                        </div>
                     </Col>
                 </Row>
             </Container>
