@@ -50,17 +50,32 @@ const about2 = () => (
         <div className={classes.About2SecondRow}>
             <Container>
                 <Row>
-                    <Col lg={7}>
+                    <Col md={12} lg={7}>
                         <div className={classes.About2SecondRowImg}>
                             <img src={Img2} />
                         </div>                   
                     </Col>
-                    <Col lg={5}>
+                    <Col md={12} lg={5}>
                         <div className={classes.About2SecondRowText}>
                             <h2>Be part of the community</h2>
                             <p>
                                 If you’re experiencing issues and concerns about this website template, 
                                 join the discussion on our forum and meet other people in the community who share the same interests with you.
+                            </p>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+        <div className={classes.About2ThirdRow}>
+            <Container>
+                <Row>
+                    <Col>
+                        <div className={classes.About2ThirdRowText}>
+                            <h2>Template Details</h2>
+                            <p>
+                                Design Version 1. Code version 5. Website Template details, discussion and updates for this Space Science Website Template. Website Template design by Free Website Templates.
+                                Please feel free to remove some or all the text and links of this page and replace it with your own About content.
                             </p>
                         </div>
                     </Col>

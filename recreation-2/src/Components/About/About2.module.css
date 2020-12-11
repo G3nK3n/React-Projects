@@ -24,6 +24,7 @@
     font-size: 15.5px;
 }
 
+
 /* SECOND ROW */
 .About2SecondRow {
     background: black;
@@ -54,6 +55,33 @@
 .About2SecondRowText {
     padding-top: 80px;
 }
+
+
+/* THIRD ROW */
+.About2ThirdRow {
+    text-align: center;
+    background: #3c0f38;
+    min-height: 234px;
+
+}
+
+.About2ThirdRow h2 {
+    color: #A3A3A3;
+    font-family: 'audiowide-regular-webfront';
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.About2ThirdRow p {
+    color: #ffffff;
+    font-family: Arial;
+}
+
+.About2ThirdRowText {
+    margin-top:70px;
+}
+
+
 
 {/* XX-LARGE SCREENS */}
 @media (max-width: 1600px) {
@@ -113,5 +141,17 @@
 
     .About2FirstRowResp {
         text-align: center;
+    }
+
+    .About2SecondRow {
+        text-align: center;
+    }
+
+    .About2SecondRow img {
+        padding: 0px;
+    }
+
+    .About2SecondRowText {
+        padding-top: 15px;
     }
 }
