@@ -13,12 +13,16 @@ import Bottom from './Home/BottomSection/BottomSection';
 //These imports are for the About Page
 import About from './About/About';
 
+//These imports are for the Blog Page
+import Blog from '../Components/Blog/Blog';
+
 
 class Layout extends Component {
 
     state = {
         showHome: false,
-        showAbout: true
+        showAbout: false, 
+        showBlog: true
     }
 
     showHomePage = () => {
@@ -47,6 +51,14 @@ class Layout extends Component {
                 </div>
             )
         }
+        else if(this.state.showBlog) {
+            thePage = (
+                <div>
+                    <Blog />
+                </div>
+            )
+        }
+
         return(
             <div className={classes.HomeBackground}>
                 <Header clickHomePage={this.showHomePage}/>
