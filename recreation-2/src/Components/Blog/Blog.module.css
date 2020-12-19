@@ -1,7 +1,15 @@
 .BlogTitle {
     text-align: center;
+    padding: 50px 0;
 }
 
 .BlogPage {
     background: black;
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.Col1, .Col2 {
+    text-align: center;
 }

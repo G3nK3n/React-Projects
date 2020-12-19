@@ -17,10 +17,14 @@ const blogpage = () => (
             </Row>
             <Row>
                 <Col>
-                    <h1>Col 1</h1>
+                    <div className={classes.Col1}>
+                        <h1>Col 1</h1>
+                    </div>
                 </Col>
                 <Col>
-                    <h1>Col 2</h1>
+                    <div className={classes.Col2}>
+                        <h1>Col 2</h1>
+                    </div>
                 </Col>
             </Row>
         </Container>
