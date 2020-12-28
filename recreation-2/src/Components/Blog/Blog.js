@@ -26,29 +26,25 @@ const blogpage = () => (
                 </Col>
                 <Col xl={5}>
                     <div className={classes.Col2}>
-                        <div>
+                        <div className={classes.FeaturedPost}>
                             <h1>Featured Post</h1>
                             <img src={Img1} />
                             <h2>Soyuz TMA-M</h2>
                             <p>February 6, 2023</p>
                         </div>
-                        <div>
+                        <div className={classes.RecentPost}>
                             <h1>Recent Post</h1>
                             <ul>
                                 <li>
-                                    <div>
-                                        <img src={Img2} />
-                                    </div>
-                                    <div>
+                                    <img src={Img2} />
+                                    <div className={classes.RecentPostText}>
                                         <h2>Alien Life</h2>
                                         <p>February 3, 2023</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <div>
-                                        <img src={Img3} />
-                                    </div>
-                                    <div>
+                                    <img src={Img3} />
+                                    <div className={classes.RecentPostText}>
                                         <h2>The Galaxy</h2>
                                         <p>February 1, 2023</p>
                                     </div>

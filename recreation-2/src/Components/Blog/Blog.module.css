@@ -10,6 +10,54 @@
     padding-right: 25%;
 }
 
-.Col1, .Col2 {
+.Col2 h1{
+    font-family: audiowide-regular-webfront;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 0 0 25px;
     
+}
+
+.Col2 h2 {
+    color: #A3A3A3;
+    font-family: audiowide-regular-webfront;
+    margin: 0 0 1px;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.Col2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.FeaturedPost {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a3a3a3;
+}
+
+.RecentPost {
+    padding-top: 25px;
+}
+
+.RecentPost p{
+    margin-bottom:0;
+}
+
+.RecentPost img {
+    float: left;
+}
+
+.RecentPost li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.RecentPost ul {
+    padding:0;
+}
+
+.RecentPostText {
+    padding-left: 80px;
 }
