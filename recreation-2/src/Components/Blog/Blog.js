@@ -7,10 +7,12 @@ import classes from '../Blog/Blog.module.css';
 import Img1 from '../../moon-satellite.jpg';
 import Img2 from '../../alien-life.jpg';
 import Img3 from '../../galaxy.jpg';
+import Img4 from '../../astronaut.jpg';
+import Img5 from '../../satellite-dish.jpg';
 
 const blogpage = () => (
     <div className={classes.BlogPage}>
-        <Container>
+        <Container className={classes.theContainer}>
             <Row>
                 <Col>
                     <div className={classes.BlogTitle}>
@@ -19,12 +21,25 @@ const blogpage = () => (
                 </Col>
             </Row>
             <Row>
-                <Col xl={7}>
+                <Col lg={7} xl={7}>
                     <div className={classes.Col1}>
-                        <h1>Col 1</h1>
+                        <div>
+                            <img src={Img4} />
+                            <h1>This is just a place holder</h1>
+                            <p>February 6, 2023</p>
+                            <p>This website template has been designed by ??? for you, for free. You can replace all this text with your own text.</p>
+                            <button>Read more</button>
+                        </div>
+                        <div>
+                            <img src={Img5} />
+                            <h1>This is just a place holder</h1>
+                            <p>February 3, 2023</p>
+                            <p>Want an easier solution for a Free Website? Head straight to Wix and immediately start customizing your website!</p>
+                            <button>Read more</button>
+                        </div>
                     </div>
                 </Col>
-                <Col xl={5}>
+                <Col lg={5} xl={5}>
                     <div className={classes.Col2}>
                         <div className={classes.FeaturedPost}>
                             <h1>Featured Post</h1>
