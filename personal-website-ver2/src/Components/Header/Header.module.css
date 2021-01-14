@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
+
+.Logo {
+    text-align: center;
+    color: white;
+    font-family: 'Pinyon Script';
+    padding-top: 20px;
+}
+
+.Links {
+    text-align: center;
+}
+
+.Links a {
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+    font-size: 20px;
+    /* color: #46bcde; */
+    color: white;
+    font-family: Lucida Calligraphy, Mistral, fantasy;
+    border-left-style: solid;
+}
+
+.HomeLink {
+    border-left: transparent;
+}
