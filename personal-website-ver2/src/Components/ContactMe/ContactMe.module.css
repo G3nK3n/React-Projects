@@ -1,0 +1,16 @@
+.ContactMe {
+    margin-top: 100px;
+    min-height: 300px;
+    border: dotted white;
+    background-color: #1a1a1a;
+
+}
+
+.ContactMe h1 {
+    color: #46bcde;
+    text-align: center;
+}
+
+.ContactMeContainer {
+    padding: 0 200px 0 200px;
+}

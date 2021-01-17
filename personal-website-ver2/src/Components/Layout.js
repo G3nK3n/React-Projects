@@ -5,13 +5,16 @@ import Header from '../Components/Header/Header';
 
 import Home from '../Components/Home/Home';
 
+import ContactMe from '../Components/ContactMe/ContactMe';
+
 
 class Layout extends Component {
     render() {
         return(
             <div>
                 <Header />
-                <Home />
+                <ContactMe />
+                {/* <Home /> */}
             </div>
         );
     }

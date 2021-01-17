@@ -19,11 +19,11 @@ const header = () => (
             <Row>
                 <Col>
                     <div className={classes.Links}>
-                        <a className={classes.HomeLink} href="#" >Home</a>
-                        <a href="#" >Resume</a>
-                        <a href="#" >Projects</a>
-                        <a href="#" >About</a>
-                        <a href="#" >Contact</a>
+                        <a className={classes.HomeLink} href="#Home" >Home</a>
+                        <a href="#Resume" >Resume</a>
+                        <a href="#Project" >Projects</a>
+                        <a href="#About" >About</a>
+                        <a href="#Contact" >Contact</a>
                     </div>
                 </Col>
             </Row>

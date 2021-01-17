@@ -3,3 +3,20 @@
     color: white;
     padding-top: 300px;
 }
+
+.HomeText h1 {
+    font-family: 'Imprint Mt Shadow';
+    font-size: 43px;
+    margin-bottom: 0;
+}
+
+.HomeText p {
+    font-size: 16px;
+    font-family: 'Lucida Sans Typewriter';
+    font-style: oblique;
+    color: #8080FF;
+}
+
+.JobTitle {
+    margin-top: -10px;
+}
