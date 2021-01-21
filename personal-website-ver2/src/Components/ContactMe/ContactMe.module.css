@@ -1,16 +1,21 @@
-.ContactMe {
-    margin-top: 100px;
-    min-height: 300px;
-    border: dotted white;
-    background-color: #1a1a1a;
-
+.FormBorder {
+    padding: 0 630px 0 630px;
 }
 
 .ContactMe h1 {
     color: #46bcde;
     text-align: center;
+    padding: 20px 0px 10px 0px;
+    font-family: 'Perpetua Titling MT';
+    font-size: 36px;
+}
+
+.ContactMeInsideDiv {
+    border-bottom: 1px solid #46bcde;
 }
 
 .ContactMeContainer {
-    padding: 0 200px 0 200px;
+    margin-top: 100px;
+    min-height: 300px;
+    background-color: #1a1a1a;
 }
