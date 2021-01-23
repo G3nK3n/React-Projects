@@ -19,3 +19,28 @@
     min-height: 300px;
     background-color: #1a1a1a;
 }
+
+.ContactText {
+    margin-top: 20px;
+}
+
+.ContactText p{
+    color: white;
+    text-align: center;
+}
+
+.Form {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Form label {
+    color: white;
+}
+
+.FormButton {
+    text-align: center;
+    color: #007bff;
+}
+
+

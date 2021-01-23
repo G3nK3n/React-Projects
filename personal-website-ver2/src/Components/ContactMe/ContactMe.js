@@ -22,22 +22,30 @@ const contactme = () => (
             <Row>
                 <Col>
                     <div>
-                        <Form>
+                        <div className={classes.ContactText}>
+                            <p>
+                                Hello! To contact me, please fill out the form on the right and I will try to respond as soon as possible.
+                                You can also message me on my LinkedIn profile or message me directly to my email with the above links. Thank you!
+                            </p>
+                        </div>
+                        <Form className={classes.Form}>
                             <Form.Group>
-                                <Form.Label>Name</Form.Label>
+                                <Form.Label>Name:</Form.Label>
                                 <Form.Control size="sm" type="text" placeholder="Enter Name"/>
                             </Form.Group>
                             <Form.Group>
-                                <Form.Label>Email</Form.Label>
+                                <Form.Label>Email:</Form.Label>
                                 <Form.Control size="sm" type="text" placeholder="Enter Email"/>
                             </Form.Group>
                             <Form.Group>
-                                <Form.Label>Message</Form.Label>
+                                <Form.Label>Message:</Form.Label>
                                 <Form.Control as="textarea" rows={7} size="sm" type="text" placeholder="Enter Message"/>
                             </Form.Group>
-                            <Button variant="secondary" type="button">
-                                Send
-                            </Button>
+                            <div className={classes.FormButton}>
+                                <Button variant="secondary" type="button">
+                                    Send
+                                </Button>
+                            </div>
                         </Form>            
                     </div>
                 </Col>
