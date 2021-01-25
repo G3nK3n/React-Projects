@@ -35,12 +35,27 @@
 }
 
 .Form label {
-    color: white;
+    /* color: white; */
+    color: #4080FF;
 }
 
 .FormButton {
     text-align: center;
-    color: #007bff;
+}
+
+.FormButton button {
+    background-color: #007bff;
+    border-color: #007bff;
+    /* background-color: #46bcde;
+    border-color: #46bcde; */
+    font-family: 'Roboto Slab,serif';
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.FormButton button:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
 }
 
 

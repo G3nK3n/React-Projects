@@ -1,5 +1,7 @@
 import React from 'react';
 import classes from '../ContactMe/ContactMe.module.css';
+import LinkedInIcon from '../../LinkedIn_Icon.png';
+
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -24,8 +26,8 @@ const contactme = () => (
                     <div>
                         <div className={classes.ContactText}>
                             <p>
-                                Hello! To contact me, please fill out the form on the right and I will try to respond as soon as possible.
-                                You can also message me on my LinkedIn profile or message me directly to my email with the above links. Thank you!
+                                Hello! To contact me, please fill out the form on the bottom and I will try to respond as soon as possible.
+                                You can also message me on my LinkedIn profile or message me directly to my email with the links below. Thank you!
                             </p>
                         </div>
                         <Form className={classes.Form}>
@@ -46,8 +48,16 @@ const contactme = () => (
                                     Send
                                 </Button>
                             </div>
-                        </Form>            
+                        </Form>           
                     </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <div>
+                        {/* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */}
+                        <img src={LinkedInIcon} />
+                    </div> 
                 </Col>
             </Row>
         </Container>
