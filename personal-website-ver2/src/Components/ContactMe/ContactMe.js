@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from '../ContactMe/ContactMe.module.css';
 import LinkedInIcon from '../../LinkedIn_Icon.png';
+import GitHubIcon from '../../GitHub-Mark-Light-64px.png';
 
 
 import Row from 'react-bootstrap/Row';
@@ -54,10 +55,25 @@ const contactme = () => (
             </Row>
             <Row>
                 <Col>
-                    <div>
-                        {/* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */}
-                        <img src={LinkedInIcon} />
+                    <div className={classes.IconContainer}>
+                        <div className={classes.Icons}>
+                            <a href="https://www.linkedin.com/in/kenserrano/" target="_blank"><img src={LinkedInIcon} /></a>
+                        </div>
+                    </div>     
+                </Col>
+                <Col>
+                    <div className={classes.IconContainer}>
+                        <div className={classes.Icons}>
+                            <a href="https://github.com/G3nK3n" target="_blank" ><img src={GitHubIcon} /></a>
+                        </div>
                     </div> 
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <div className={classes.CopyrightBorder}>
+                        <div className={classes.CopyrightMessage}>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                    </div>
                 </Col>
             </Row>
         </Container>

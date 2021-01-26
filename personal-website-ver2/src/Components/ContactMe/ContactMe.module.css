@@ -58,4 +58,26 @@
     border-color: #0062cc;
 }
 
+.IconContainer {
+    margin-bottom: 20px;
+}
+
+.Icons{
+    text-align: center;
+}
+
+.Icons img {
+    width: 50px;
+}
+
+.CopyrightMessage {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.CopyrightBorder {
+    margin-bottom: 10px;
+}
+
 
