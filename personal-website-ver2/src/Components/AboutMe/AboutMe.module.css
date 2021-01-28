@@ -1,0 +1,22 @@
+.AboutMeBorder {
+    padding: 0 500px 0 500px;
+}
+
+.AboutMeContainer {
+    margin-top: 120px;
+    min-height: 500px;
+    background-color: #1a1a1a;
+}
+
+.AboutMe h1 {
+    color: #46bcde;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    font-family: 'Perpetua Titling MT';
+    font-size: 36px;
+}
+
+.AboutMeInsideDiv {
+    border-bottom: 1px solid #46bcde;
+}
+
