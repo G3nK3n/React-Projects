@@ -4,7 +4,7 @@
 
 .AboutMeContainer {
     margin-top: 120px;
-    min-height: 500px;
+    min-height: 480px;
     background-color: #1a1a1a;
 }
 
@@ -16,7 +16,25 @@
     font-size: 36px;
 }
 
+.TextRow {
+    margin-top: 10px;
+}
+
 .AboutMeInsideDiv {
     border-bottom: 1px solid #46bcde;
+}
+
+.AboutMeText p{
+    color: white;
+    font-size: 14.5px;
+}
+
+.MyPic {
+    width: 276px;
+    padding-top: 60px;
+}
+
+.PictureCol {
+    padding-left: 5px;
 }
 

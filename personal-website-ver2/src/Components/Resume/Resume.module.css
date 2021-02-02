@@ -1,0 +1,22 @@
+.ResumeBorder {
+    padding: 0 300px 0 300px;
+}
+
+.ResumeContainer {
+    margin-top: 100px;
+    min-height: 300px;
+    background-color: #1a1a1a;
+}
+
+.Resume h1 {
+    color: #46bcde;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    font-family: 'Perpetua Titling MT';
+    font-size: 36px;
+}
+
+.ResumeInsideDiv {
+    border-bottom: 1px solid #46bcde;
+}
+

@@ -5,6 +5,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
+import MyPic from '../../Me.jpg';
+
 const aboutme = () => (
     <div className={classes.AboutMeBorder}>
         <Container className={classes.AboutMeContainer}>
@@ -17,9 +19,9 @@ const aboutme = () => (
                     </div>
                 </Col>
             </Row>
-            <Row>
+            <Row className={classes.TextRow}>
                 <Col>
-                    <div>
+                    <div className={classes.AboutMeText}>
                         <p>
                             Hello, My name is Kenneth Serrano and I am currently a Computer Science student at Concordia University in Montreal.
                             I am currently in my final year and have a strong passion for web development and Photography.
@@ -32,13 +34,13 @@ const aboutme = () => (
                             <br />
                             I have been an amateur photographer for the past 3 years, taking portrait style photography using my Nikon D3400 and 35mm lens 1.8G. 
                             I love the sharpness of the subject and popping out the colors, which also creates a beautiful blurred background. You can see some of my pictures in the Photography section.
-                            If you would like to have a photoshoot with me, dont hesitate to contact me here or on my instagram Photography Account. Thank you
+                            If you would like to have a photoshoot with me, dont hesitate to contact me here or on my instagram Photography Account. Thank you!
                         </p>
                     </div>
                 </Col>
-                <Col>
+                <Col className={classes.PictureCol} xl={4}>
                     <div>
-                        <h1>Some picture here</h1>
+                        <img src={MyPic} className={classes.MyPic}/>
                     </div>
                 </Col>
             </Row>
