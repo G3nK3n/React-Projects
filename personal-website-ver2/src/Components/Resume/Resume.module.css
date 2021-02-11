@@ -20,3 +20,27 @@
     border-bottom: 1px solid #46bcde;
 }
 
+.SkillList {
+    padding-left: 100px;
+}
+
+.SkillList ul {
+    color: white;
+}
+
+.SkillList h5 {
+    color: #8080FF;
+}
+
+.SkillTitle h4 {
+    text-align: center;
+    color: white;
+}
+
+.SkillRow {
+    margin-top:40px;
+}
+.SkillListRow {
+    margin-top: 20px;
+}
+
