@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const employment = () => (
-    <div>
+    <div className={classes.EmploymentBorder}>
         <Row>
             <Col>
                 <div className={classes.EmploymentTitle}>
@@ -13,13 +13,25 @@ const employment = () => (
                 </div>
             </Col>
         </Row>
-        <Row>
-            <Col>
-                <div className={classes.WorkPositionTitle}>
-                    <h5>Warehouse Clerk</h5>
-                </div>
-            </Col>
-        </Row>
+        <div className={classes.EmploymentSection}>
+            <Row>
+                <Col>
+                    <div className={classes.WorkPositionTitle}>
+                        <div className={classes.WorkPositionInside} >
+                            <h5>WAREHOUSE CLERK</h5>
+                        </div>
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <div>
+                        <h6>Tennaquip - Senneville</h6>
+                        <p>2008-2021</p>
+                    </div>
+                </Col>
+            </Row>
+        </div>
     </div>
     
 );

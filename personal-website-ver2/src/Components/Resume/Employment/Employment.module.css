@@ -1,3 +1,12 @@
+.EmploymentBorder {
+    padding: 0px 80px;
+}
+
+.EmploymentSection {
+    border: 1px solid #46bcde;
+    margin-top: 20px;
+}
+
 .EmploymentTitle h4{
     text-align: center;
     color: white;
@@ -9,4 +18,11 @@
 
 .WorkPositionTitle h5{
     text-align: center;
+    color: #8080FF;
+}
+
+.WorkPositionInside {
+    border-bottom: 1px solid #46bcde;
+    margin-left: 15px;
+    margin-right: 15px;
 }
