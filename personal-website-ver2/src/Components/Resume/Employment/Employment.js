@@ -25,9 +25,16 @@ const employment = () => (
             </Row>
             <Row>
                 <Col>
-                    <div>
-                        <h6>Tennaquip - Senneville</h6>
+                    <div className={classes.CurrentWork}>
+                        <h6>TENAQUIP - SENNEVILLE</h6>
                         <p>2008-2021</p>
+                        <div>
+                            <p>
+                                Currently working in this company as a warehouse clerk. Some of the task I currently do would be picking orders using
+                                an RF scanner in the warehouse, receiving shipments from the company's many suppliers and preparing orders that would
+                                would be ready to ship.
+                            </p>
+                        </div>
                     </div>
                 </Col>
             </Row>

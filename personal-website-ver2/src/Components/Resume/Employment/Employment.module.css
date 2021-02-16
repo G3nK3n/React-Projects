@@ -19,10 +19,22 @@
 .WorkPositionTitle h5{
     text-align: center;
     color: #8080FF;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .WorkPositionInside {
     border-bottom: 1px solid #46bcde;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.CurrentWork {
+    padding: 0 15px;
+    padding-top: 10px;
+    color: white;
+}
+
+.CurrentWork h6 {
+    color: #8080FF;
 }
