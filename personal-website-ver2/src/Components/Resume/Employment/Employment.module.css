@@ -1,10 +1,23 @@
-.EmploymentBorder {
+.OuterEmploymentBorder {
     padding: 0px 80px;
 }
 
-.EmploymentSection {
+.InnerEmploymentBorder {
     border: 1px solid #46bcde;
-    margin-top: 20px;
+}
+
+.EmploymentSection {
+    /* border: 1px solid #46bcde;
+    margin-top: 20px; */
+}
+
+.EmploymentSecondRow {
+    border-top: 1px solid #46bcde;
+    margin:0px;
+}
+
+.EmploymentCol {
+    border-right: 1px solid #46bcde;
 }
 
 .EmploymentTitle h4{
@@ -14,6 +27,7 @@
 
 .EmploymentTitle {
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .WorkPositionTitle h5{
@@ -29,12 +43,21 @@
     margin-right: 15px;
 }
 
+.PreviousWorkPositionInside {
+    border-bottom: 1px solid #46bcde;
+}
+
 .CurrentWork {
     padding: 0 15px;
     padding-top: 10px;
     color: white;
 }
 
-.CurrentWork h6 {
+.PreviousWork {
+    padding-top: 10px;
+    color: white;
+}
+
+.CurrentWork h6, .PreviousWork h6{
     color: #8080FF;
 }
