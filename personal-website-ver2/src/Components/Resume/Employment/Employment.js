@@ -65,10 +65,46 @@ const employment = () => (
                                     <h6>TENAQUIP - SENNEVILLE</h6>
                                     <p>May - Juky 2018</p>
                                     <p>
-                                        Previosuly worked as a Web Developer intern during the summer. Some of the task I have done would be
+                                        Previously worked as a Web Developer intern during the summer. Some of the task I have done would be
                                         converting SCN dealer's website onto a new platform, which includes mobile friendly languages such as Bootstrap 3.
                                         Other task included were styling the dealer's websites using CSS and JavaScript, and creating an SSL certificate form
                                         for our customers using CSS, JavaScript and JQuery.
+                                    </p>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+
+                    <Row className={classes.EmploymentSecondRow}>
+                        <Col className={classes.EmploymentCol}>
+                            <div className={classes.WorkPositionTitle}>
+                                <div className={classes.PreviousWorkPositionInside} >
+                                    <h5>SOFTWARE DEVELOPER INTERN</h5>
+                                </div>
+                                <div className={classes.PreviousWork}>
+                                    <h6>CANADA POST - MONTREAL</h6>
+                                    <p>May 2017 - August 2017</p>
+                                    <p>
+                                        Previously worked as a software developer intern during the summer. Some of the task I have done would be 
+                                        optimizing their database to make it more faster and efficient while using MS Access. Other tasks included are
+                                        reworking the back-end of their VBA application according to the newly optimized database and also creating a new 
+                                        version of their VBA app. Some minor tasks included were debugging their report page, fixing minor bugs and errors.
+                                    </p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className={classes.WorkPositionTitle}>
+                                <div className={classes.PreviousWorkPositionInside} >
+                                    <h5>WEB DEVELOPER INTERN</h5>
+                                </div>
+                                <div className={classes.PreviousWork}>
+                                    <h6>EXCENDIA - MONTREAL</h6>
+                                    <p>August - December 2012</p>
+                                    <p>
+                                        Previosuly worked as a Web Developer intern during my final semester in CEGEP. Some of the task included were
+                                        debugging their support page, fixing minor bugs and errors. Other tasks included were creating a SOAP web services application 
+                                        using PHP, testing webpages on different type of mobile phones, and creating different color themes for their main website.
                                     </p>
                                 </div>
                             </div>
