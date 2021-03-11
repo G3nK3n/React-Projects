@@ -63,7 +63,7 @@ const employment = () => (
                                 </div>
                                 <div className={classes.PreviousWork}>
                                     <h6>TENAQUIP - SENNEVILLE</h6>
-                                    <p>May - Juky 2018</p>
+                                    <p>May - July 2018</p>
                                     <p>
                                         Previously worked as a Web Developer intern during the summer. Some of the task I have done would be
                                         converting SCN dealer's website onto a new platform, which includes mobile friendly languages such as Bootstrap 3.

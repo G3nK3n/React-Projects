@@ -1,0 +1,25 @@
+.EducationTitle h4{
+    text-align: center;
+    color: white;
+    margin-top:25px;
+    margin-bottom: 20px;
+}
+
+.EducationColumn {
+    padding: 0px 150px;
+}
+
+.EducationYear {
+    
+}
+
+.EducationSection {
+    color: white;
+    border: 1px solid #46bcde;
+    height: 250px;
+    padding: 10px;
+}
+
+.EducationSection h5, .EducationSection h6 {
+    color: #8080FF;
+}

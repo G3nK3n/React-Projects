@@ -1,6 +1,8 @@
 import React from 'react';
 import classes from '../Resume/Resume.module.css';
 import Employment from '../Resume/Employment/Employment';
+import Education from '../Resume/Education/Education';
+
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -68,13 +70,7 @@ const resume = () => (
                 </Col>
             </Row>
             <Employment />
-            {/* <Row>
-                <Col>
-                    <div>
-                        <Employment />
-                    </div>
-                </Col>
-            </Row> */}
+            <Education />
         </Container>
     </div>
 )
