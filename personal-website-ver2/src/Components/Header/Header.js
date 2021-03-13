@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import classes from '../Header/Header.module.css';
 
@@ -19,11 +21,12 @@ const header = () => (
             <Row>
                 <Col>
                     <div className={classes.Links}>
-                        <a className={classes.HomeLink} href="#Home" >Home</a>
-                        <a href="#Resume" >Resume</a>
-                        <a href="#Project" >Projects</a>
-                        <a href="#About" >About</a>
-                        <a href="#Contact" >Contact</a>
+                        {/* Used Link so page will not reload and reset everything */}
+                        <Link className={classes.HomeLink} to="/">Home</Link>
+                        <Link to="/resume">Resume</Link>
+                        <Link to="/projects">Projects</Link>
+                        <Link to="/about">About</Link>
+                        <Link to="/contact">Contact</Link>
                     </div>
                 </Col>
             </Row>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
+
 import classes from '../Components/Layout.module.css';
 
 import Header from '../Components/Header/Header';
@@ -13,10 +15,11 @@ class Layout extends Component {
         return(
             <div>
                 <Header />
-                <Resume />
-                {/* <AboutMe /> */}
-                {/* <ContactMe /> */}
-                {/* <Home /> */}
+                <Route path="/" component={Home} exact/>
+                <Route path="/resume" component={Resume} exact/>
+                {/* <Route path="/project" component={Home} exact/> */}
+                <Route path="/about" component={AboutMe} exact/>
+                <Route path="/contact" component={ContactMe} exact/>
             </div>
         );
     }
