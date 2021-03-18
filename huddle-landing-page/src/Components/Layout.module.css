@@ -1,3 +1,20 @@
-body {
-    background-image: url("../bg-desktop.svg");
+.MainLayout {
+    background: url("../bg-desktop.svg") center no-repeat;
+    width: 1440px;
+    height: 800px;
+    position: fixed;
+
+    /* This centers the div into the center of the screen because of margin: auto */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+    background-color: hsl(257, 40%, 49%);
+}
+
+.Container {
+    margin-left:70px;
+    margin-right: 70px;
 }
