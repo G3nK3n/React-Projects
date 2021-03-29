@@ -14,7 +14,8 @@
     background-color: hsl(257, 40%, 49%);
 }
 
-.Container {
+.TheContainer {
     margin-left:70px;
-    margin-right: 70px;
+    margin-right: 70px ;
+    
 }

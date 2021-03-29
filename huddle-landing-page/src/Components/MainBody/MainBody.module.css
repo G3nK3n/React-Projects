@@ -1,0 +1,24 @@
+.ImageDiv img{
+    margin-top:70px;
+}
+
+.RightCol {
+    color: white;
+    padding-top:100px;
+}
+
+.RightCol h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.RightCol p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.RightCol Button {
+    width: 200px;
+    border-radius: 12px;
+}

@@ -7,6 +7,8 @@ import Container from 'react-bootstrap/Container';
 
 
 import Header from '../Components/Header/Header';
+import MainBody from '../Components/MainBody/MainBody';
+import Footer from '../Components/Footer/Footer';
 
 
 
@@ -15,9 +17,11 @@ class Layout extends Component {
         return(
             <div>
                 <div className={classes.MainLayout}>
-                    <Container className={classes.Container}>
+                    <div className={classes.TheContainer}>
                         <Header />
-                    </Container>
+                        <MainBody />
+                        <Footer />
+                    </div>
                 </div>
             </div>
         )
